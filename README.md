@@ -1,114 +1,41 @@
-## Group Equivariant Stand-Alone Self-Attention For Vision
+## Group Equivariant Vision Transformer
 
 This repository contains the source code accompanying the paper:
 
- [Group Equivariant Stand-Alone Self-Attention For Vision](https://openreview.net/forum?id=JkfYjnOEo6M) [[Slides]](https://app.slidebean.com/p/5ph9ysn3g7/Group-Equivariant-Stand-Alone-Self-Attention-For-Vision) [[Demos]](https://github.com/dwromero/g_selfatt/tree/master/demo) <br/>**[David W. Romero](https://www.davidromero.ml/) & [Jean-Baptiste Cordonnier](http://jbcordonnier.com/)**, ICLR 2021.
+ [Group Equivariant Vision Transformer](https://openreview.net/forum?id=uVG_7x41bN),  UAI 2023.
+ 
+ Code Author: Kaifan Yang & Ke Liu
 
 #### Abstract
-*We provide a general self-attention formulation to impose group equivariance to arbitrary symmetry groups. This is achieved by defining positional encodings that
-are invariant to the action of the group considered. Since the group acts on the positional encoding directly, group equivariant self-attention networks (**GSA-Nets**) are
-steerable by nature. Our experiments on vision benchmarks demonstrate consistent improvements of GSA-Nets over non-equivariant self-attention networks.*
+*Vision Transformer (ViT) has achieved remarkable performance in computer vision. However, positional encoding in ViT makes it substantially difficult to realize the equivariance, compared to models based on convolutional operations which are translation-equivariant. Initial attempts have been made on designing equivariant ViT but proved not effective in some cases in this paper. To address this issue, we propose a Group Equivariant Vision Transformer (GE-ViT) via a novel, effective positional encoding operation. We prove that GE-ViT meets all the theoretical requirements of an equivariant neural network. Comprehensive experiments are conducted on standard benchmark datasets. The empirical results demonstrate that GE-ViT has made significant improvement over non-equivariant self-attention networks*
 
-<img src="group_SA.png" alt="drawing" width="750"/>
+### Reproducing experimental results
 
-### Repository structure
-
-This repository is organized as follows:
-
-* `g_selfatt` contains the main PyTorch library of our model.
-
-* `datasets` implements `Dataset` wrappers for the datasets used.
-
-* `demo` includes some minimalistic examples on the usage of our approach as well as the construction of Group Equivariant Self-Attention Networks (GSA-Nets).
-    These files also demonstrate empirically the equivariance properties of our model.
-
-* `models` contains the models used throughout our experiments.
-
-* `runs` contains the command lines used to obtain the results reported in our experiments.
-
-* `saved` contains various pretrained models.
-
-### Reproduce
-
-#### Install
-
-###### conda *(recommended)*
-In order to reproduce our results, please first install the required dependencies. This can be done by:
+#### Command for running rot-MNIST
 ```
-conda env create -f conda_requirements.txt
-```
-This will create the conda environment `g_selfatt` with the correct dependencies.
-
-###### pip
-The same conda environment can be created with `pip` by running:
-```
-conda create -n g_selfatt python=3.7
-conda activate g_selfatt
-conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.1 -c pytorch
-pip install -r requirements.txt
+python run_experiment.py --config.dataset rotMNIST --config.model p4sa --config.norm_type LayerNorm --config.attention_type Local --config.activation_function Swish --config.patch_size 9 --config.dropout_att 0.1 --config.dropout_values 0.1 --config.whitening_scale 1.41421356 --config.epochs 300 --config.optimizer Adam --config.lr 0.001 --config.optimizer_momentum 0.9 --config.scheduler constants --config.sched_decay_steps='(1000,)' --config.sched_decay_factor 1.0 --config.weight_decay 0.0001 --config.batch_size 8 --config.device cuda --config.seed 0 --config.comment ''
 ```
 
-#### Data
-When running experiments on **rotMNIST** or **CIFAR10**, the data will be downloaded automatically. For the **PCam** dataset, though, this needs to be done manually (Dataset size = ~7GB).
-
-###### Pcam
-We use an `ImageFolder` structure for our experiments. A file containing the entire dataset in this format can be downloaded from: https://drive.google.com/file/d/1THSEUCO3zg74NKf_eb3ysKiiq2182iMH/view?usp=sharing (~7GB).
-Once downloaded, please extract the data in `./data`.
-
-The dataset structure should look as follows:
+#### Command for running  CIFAR-10
 ```
-./data
-+-> PCam
-    +--> test
-    |     +--> no_tumor
-    |     +--> tumor
-    +--> train
-    |     +--> no_tumor
-    |     +--> tumor
-    +--> valid
-         +--> no_tumor
-         +--> tumor
+python run_experiment.py --dataset CIFAR10 --model mz2sa --norm_type LayerNorm --attention_type Local --activation_function Swish --patch_size 5 --dropout_att 0.1 --dropout_values 0.0 --whitening_scale 1.41421356 --epochs 350 --optimizer SGD --lr=0.01 --optimizer_momentum 0.9 --scheduler linear_warmup_cosine --optimizer_decay_steps 1000 --optimizer_decay_factor 1.0 --weight_decay 0.0001 --batch_size 24 --device cuda --seed 0 --comment ""
 ```
 
-#### Experiments and `config` files
-To reproduce the experiments in the paper, please follow the configurations given in `runs/README.md`
-
-Specifications on the parameters specified via the `argsparser` can be found in the corresponding `config.py` file.
-
-#### Pretrained models
-To use pretrained models, please add the argument `--config.pretrained=True` to the corresponding execution line.
-
-#### Recommendations and details
-
-###### Automatic mixed precision and divergence during training
-We leveraged atomatic mixed precision (AMP) `torch.cuda.amp` in some of our experiments , i.e., on the rotMNIST dataset.
-We observed that using AMP simultaneously with learning rate schedulers made all our models diverge. Therefore, we
-**disable AMP** whenever learning rate schedulers are used.
-
-###### mlp_encoding and  `torch.nn.Embedding` for positional encodings
-Our initial experiments used a `torch.nn.Embedding` layer as positional encoding. However, this type of layer does not allow
-for rotations finer than 90 degrees. We solve this by replacing `torch.nn.Embedding` layers with a small MLP.
-
-### Using Group Equivariant Self-Attention Networks
-We provide a simplified version of the code used to construct GSA-Nets, which you can easily incorporate in your own project in `demo/Construct_your_own_GSA-Net.ipynb`.
-
-### Cite
-If you found this work useful in your research, please consider citing:
+#### Command for running PatchCamelyon
 ```
-@inproceedings{romero2021group,
-  title={Group Equivariant Stand-Alone Self-Attention For Vision},
-  author={David W. Romero and Jean-Baptiste Cordonnier},
-  booktitle={International Conference on Learning Representations},
-  year={2021},
-  url={https://openreview.net/forum?id=JkfYjnOEo6M}
-}
+python run_experiment.py --dataset PCam --model p4sa --norm_type LayerNorm --attention_type Local --activation_function Swish --patch_size 5 --dropout_att 0.1 --dropout_values 0.1 --whitening_scale 1.41421356 --epochs 100 --optimizer SGD --lr 0.01 --optimizer_momentum 0.9 --scheduler linear_warmup_cosine --optimizer_decay_steps 1000 --optimizer_decay_factor 1.0 --weight_decay 0.0001 --batch_size 16 --device cuda --seed 0 --comment ""
 ```
+
+### Note
+Our code was modified based on the code presented in paper A. We mainly modified the “construct_relative_positions” function of the g_selfatt/groups/SE2.py and g_selfatt/g_selfatt/groups/E2.py module in [GSA-Nets](https://github.com/dwromero/g_selfatt) which corresponds to the part of position encoding. 
+
+From the experimental results, there are differences between the results in our paper and those in [GSA-Nets](https://openreview.net/forum?id=JkfYjnOEo6M) and we suspect that this is caused by differences in the experimental environment. The paper of [GSA-Nets](https://openreview.net/forum?id=JkfYjnOEo6M) uses NVIDIA TITAN RTX, while we used NVIDIA Tesla A100. To ensure a fair comparison, we re-ran the code of [GSA-Nets](https://openreview.net/forum?id=JkfYjnOEo6M) on our hardware. 
+
+The experimental results of rot-MNIST and PatchCamelyon are similar to those presented in the paper, but the results of CIFAR-10 differ significantly from the paper. It is worth mentioning that in the [GSA-Nets](https://openreview.net/forum?id=JkfYjnOEo6M), the authors mentioned that they did not use automatic mixed precision when conducting experiments on the CIFAR-10 datasets. However, when we tried to run the experiments without using automatic mixed precision, we found that at the beginning of the training, the loss would become 'nan', and not converge. When we used automatic mixed precision, the loss converged to a smaller value and the model achieved high accuracy in prediction. The results presented in our paper were obtained using automatic mixed precision. Therefore, the experimental results presented in the table may not be consistent with those reported in the original [GSA-Nets](https://openreview.net/forum?id=JkfYjnOEo6M) paper.
+
+### Contributions of each author to the paper
+
+Kaifan Yang & Ke Liu proposed the innovative ideas, designed the model architecture and completed the initial draft of the paper. Fengxiang He made detailed revisions to the paper and provided many constructive comments.
 
 ### Acknowledgements
-*We gratefully acknowledge Robert-Jan Bruintjes, Fabian Fuchs, Erik Bekkers, Andreas Loukas,
-Mark Hoogendoorn and our anonymous reviewers for their valuable comments on early versions of this work. David W. Romero
-is financed as part of the Efficient Deep Learning (EDL) programme (grant number P16-25), partly
-funded by the Dutch Research Council (NWO) and Semiotic Labs. Jean-Baptiste Cordonnier is
-financed by the Swiss Data Science Center (SDSC). Both authors are thankful to everyone
-involved in funding this work. This work was carried out on the Dutch national e-infrastructure with
-the support of SURF Cooperative.*
+*We gratefully acknowledge the authors of GSA-Nets paper David W. Romero and Jean-Baptiste Cordonnier.  They patiently answered and elaborated on the experimental details of the paper [GSA-Nets](https://openreview.net/forum?id=JkfYjnOEo6M).*
