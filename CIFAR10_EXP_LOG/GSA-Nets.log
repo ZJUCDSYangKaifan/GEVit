@@ -1,0 +1,3290 @@
+Extracting ./data/cifar-10-python.tar.gz to ./data
+Files already downloaded and verified
+activation_function: Swish
+attention_type: Local
+augment: false
+batch_size: 24
+comment: ''
+dataset: CIFAR10
+device: cuda:0
+dropout_att: 0.1
+dropout_values: 0.0
+epochs: 350
+lr: 0.01
+model: mz2sa
+norm_type: LayerNorm
+optimizer: SGD
+optimizer_momentum: 0.9
+patch_size: 5
+path: saved/CIFAR10_augm_False_model_mz2sa_type_Local_patch_5_dpatt_0.1_dpval_0.0_activ_Swish_norm_LayerNorm_white_1.41421356_optim_SGD_momentum_0.9_lr_0.01_bs_24_ep_350_wd_0.0001_seed_0_sched_linear_warmup_cosine.pt
+pretrained: false
+sched_decay_factor: 1.0
+sched_decay_steps: !!python/tuple
+- 1000
+scheduler: linear_warmup_cosine
+seed: 0
+train: true
+weight_decay: 0.0001
+whitening_scale: 1.41421356
+
+2023-04-16 01:22:43.268058
+Epoch 1/350
+------------------------------
+Learning Rate: 0.0
+------------------------------
+train Loss: 4.7826 Acc: 0.1485
+2023-04-16 02:00:35.114366
+validation Loss: 2.2386 Acc: 0.2221
+2023-04-16 02:02:19.903711
+Epoch 2/350
+------------------------------
+Learning Rate: 0.00100048007681229
+------------------------------
+train Loss: 2.0198 Acc: 0.2556
+2023-04-16 02:40:05.829636
+validation Loss: 1.9985 Acc: 0.2669
+2023-04-16 02:41:49.820016
+Epoch 3/350
+------------------------------
+Learning Rate: 0.00200096015362458
+------------------------------
+train Loss: 1.8639 Acc: 0.3163
+2023-04-16 03:19:35.879102
+validation Loss: 1.8071 Acc: 0.3427
+2023-04-16 03:21:19.822582
+Epoch 4/350
+------------------------------
+Learning Rate: 0.00300144023043687
+------------------------------
+train Loss: 1.7923 Acc: 0.3527
+2023-04-16 03:59:06.474699
+validation Loss: 1.9428 Acc: 0.3284
+2023-04-16 04:00:50.371764
+Epoch 5/350
+------------------------------
+Learning Rate: 0.00400192030724916
+------------------------------
+train Loss: 1.7354 Acc: 0.3716
+2023-04-16 04:38:36.651943
+validation Loss: 1.9178 Acc: 0.3422
+2023-04-16 04:40:20.655862
+Epoch 6/350
+------------------------------
+Learning Rate: 0.00500240038406145
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:49.752031, resuming normal operation.
+train Loss: 1.6650 Acc: 0.3997
+2023-04-16 05:18:07.742143
+validation Loss: 1.7248 Acc: 0.3683
+2023-04-16 05:19:51.618024
+Epoch 7/350
+------------------------------
+Learning Rate: 0.00600288046087374
+------------------------------
+train Loss: 1.6077 Acc: 0.4224
+2023-04-16 05:57:38.942070
+validation Loss: 1.7414 Acc: 0.3748
+2023-04-16 05:59:22.894581
+Epoch 8/350
+------------------------------
+Learning Rate: 0.0070033605376860295
+------------------------------
+train Loss: 1.5548 Acc: 0.4422
+2023-04-16 06:37:09.972756
+validation Loss: 1.8686 Acc: 0.3623
+2023-04-16 06:38:54.056775
+Epoch 9/350
+------------------------------
+Learning Rate: 0.00800384061449832
+------------------------------
+train Loss: 1.5479 Acc: 0.4486
+2023-04-16 07:16:40.406373
+validation Loss: 1.6970 Acc: 0.3917
+2023-04-16 07:18:24.345326
+Epoch 10/350
+------------------------------
+Learning Rate: 0.009004320691310611
+------------------------------
+train Loss: 1.5206 Acc: 0.4636
+2023-04-16 07:56:11.915420
+validation Loss: 2.1244 Acc: 0.3301
+2023-04-16 07:57:55.887027
+Epoch 11/350
+------------------------------
+Learning Rate: 0.009999999995080699
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:30.276527, resuming normal operation.
+train Loss: 1.4939 Acc: 0.4714
+2023-04-16 08:35:42.718802
+validation Loss: 1.6210 Acc: 0.4221
+2023-04-16 08:37:26.688204
+Epoch 12/350
+------------------------------
+Learning Rate: 0.009999784298278028
+------------------------------
+train Loss: 1.4430 Acc: 0.4958
+2023-04-16 09:15:13.514241
+validation Loss: 1.5546 Acc: 0.4532
+2023-04-16 09:16:57.449864
+Epoch 13/350
+------------------------------
+Learning Rate: 0.009999141326973908
+------------------------------
+train Loss: 1.3987 Acc: 0.5092
+2023-04-16 09:54:45.040002
+validation Loss: 1.5697 Acc: 0.4440
+2023-04-16 09:56:29.036941
+Epoch 14/350
+------------------------------
+Learning Rate: 0.009998071136115757
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:02:18.918522, resuming normal operation.
+train Loss: 1.3702 Acc: 0.5200
+2023-04-16 10:34:16.761779
+validation Loss: 1.7138 Acc: 0.4352
+2023-04-16 10:36:00.695283
+Epoch 15/350
+------------------------------
+Learning Rate: 0.00999657381716057
+------------------------------
+train Loss: 1.3641 Acc: 0.5262
+2023-04-16 11:13:47.816260
+validation Loss: 1.4907 Acc: 0.4691
+2023-04-16 11:15:31.676631
+Epoch 16/350
+------------------------------
+Learning Rate: 0.009994649498067115
+------------------------------
+train Loss: 1.3174 Acc: 0.5402
+2023-04-16 11:53:19.218477
+validation Loss: 1.4716 Acc: 0.5030
+2023-04-16 11:55:03.234626
+Epoch 17/350
+------------------------------
+Learning Rate: 0.00999229834328498
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:18.576476, resuming normal operation.
+train Loss: 1.2874 Acc: 0.5558
+2023-04-16 12:32:50.981078
+validation Loss: 1.5539 Acc: 0.4843
+2023-04-16 12:34:34.990802
+Epoch 18/350
+------------------------------
+Learning Rate: 0.00998952055374053
+------------------------------
+train Loss: 1.3072 Acc: 0.5492
+2023-04-16 13:12:22.368766
+validation Loss: 1.6404 Acc: 0.4729
+2023-04-16 13:14:06.358549
+Epoch 19/350
+------------------------------
+Learning Rate: 0.009986316366819736
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:47.072696, resuming normal operation.
+train Loss: 1.2504 Acc: 0.5672
+2023-04-16 13:51:53.795895
+validation Loss: 1.3537 Acc: 0.5377
+2023-04-16 13:53:37.792007
+Epoch 20/350
+------------------------------
+Learning Rate: 0.009982686056347886
+------------------------------
+train Loss: 1.2331 Acc: 0.5736
+2023-04-16 14:31:25.561139
+validation Loss: 1.6203 Acc: 0.4849
+2023-04-16 14:33:09.478915
+Epoch 21/350
+------------------------------
+Learning Rate: 0.009978629932566178
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:02:27.806540, resuming normal operation.
+train Loss: 1.2058 Acc: 0.5879
+2023-04-16 15:10:56.860738
+validation Loss: 1.3997 Acc: 0.5246
+2023-04-16 15:12:40.749845
+Epoch 22/350
+------------------------------
+Learning Rate: 0.009974148342105223
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:02:26.106375, resuming normal operation.
+train Loss: 1.1934 Acc: 0.5891
+2023-04-16 15:50:28.260200
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+validation Loss: 1.7505 Acc: 0.4507
+2023-04-16 15:52:12.148308
+Epoch 23/350
+------------------------------
+Learning Rate: 0.009969241667955412
+------------------------------
+wandb: Network error resolved after 0:01:02.233845, resuming normal operation.
+train Loss: 1.1655 Acc: 0.5999
+2023-04-16 16:29:59.836311
+validation Loss: 1.4827 Acc: 0.5130
+2023-04-16 16:31:43.809935
+Epoch 24/350
+------------------------------
+Learning Rate: 0.009963910329434177
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:06:03.526023, resuming normal operation.
+train Loss: 1.1643 Acc: 0.6026
+2023-04-16 17:09:31.443464
+validation Loss: 1.4793 Acc: 0.5105
+2023-04-16 17:11:15.462794
+Epoch 25/350
+------------------------------
+Learning Rate: 0.009958154782150182
+------------------------------
+train Loss: 1.1535 Acc: 0.6067
+2023-04-16 17:49:02.438268
+validation Loss: 1.5328 Acc: 0.4831
+2023-04-16 17:50:46.327258
+Epoch 26/350
+------------------------------
+Learning Rate: 0.00995197551796436
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:48.912154, resuming normal operation.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:49.220349, resuming normal operation.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:04:00.434834, resuming normal operation.
+train Loss: 1.1384 Acc: 0.6150
+2023-04-16 18:28:33.898760
+validation Loss: 1.4709 Acc: 0.5127
+2023-04-16 18:30:17.844506
+Epoch 27/350
+------------------------------
+Learning Rate: 0.009945373064947902
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+train Loss: 1.1285 Acc: 0.6139
+2023-04-16 19:08:05.004972
+wandb: Network error resolved after 0:03:29.389437, resuming normal operation.
+validation Loss: 1.4474 Acc: 0.5249
+2023-04-16 19:09:48.904600
+Epoch 28/350
+------------------------------
+Learning Rate: 0.009938347987337112
+------------------------------
+train Loss: 1.1249 Acc: 0.6183
+2023-04-16 19:47:35.706293
+validation Loss: 1.5470 Acc: 0.5211
+2023-04-16 19:49:19.700148
+Epoch 29/350
+------------------------------
+Learning Rate: 0.009930900885485192
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:01.736691, resuming normal operation.
+train Loss: 1.1154 Acc: 0.6230
+2023-04-16 20:27:06.376105
+validation Loss: 1.3146 Acc: 0.5528
+2023-04-16 20:28:50.392320
+Epoch 30/350
+------------------------------
+Learning Rate: 0.00992303239581095
+------------------------------
+train Loss: 1.0831 Acc: 0.6327
+2023-04-16 21:06:37.048302
+validation Loss: 1.3159 Acc: 0.5653
+2023-04-16 21:08:21.005228
+Epoch 31/350
+------------------------------
+Learning Rate: 0.00991474319074439
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:10.153694, resuming normal operation.
+train Loss: 1.0823 Acc: 0.6320
+2023-04-16 21:46:08.653221
+validation Loss: 1.5408 Acc: 0.5264
+2023-04-16 21:47:52.520847
+Epoch 32/350
+------------------------------
+Learning Rate: 0.009906033978669267
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:49.451413, resuming normal operation.
+train Loss: 1.0605 Acc: 0.6386
+2023-04-16 22:25:40.214077
+validation Loss: 1.5530 Acc: 0.5023
+2023-04-16 22:27:24.162617
+Epoch 33/350
+------------------------------
+Learning Rate: 0.00989690550386254
+------------------------------
+train Loss: 1.0497 Acc: 0.6450
+2023-04-16 23:05:10.725721
+validation Loss: 1.4877 Acc: 0.5173
+2023-04-16 23:06:54.734618
+Epoch 34/350
+------------------------------
+Learning Rate: 0.009887358546430764
+------------------------------
+train Loss: 1.0416 Acc: 0.6478
+2023-04-16 23:44:41.911607
+validation Loss: 1.3559 Acc: 0.5742
+2023-04-16 23:46:25.812428
+Epoch 35/350
+------------------------------
+Learning Rate: 0.009877393922243436
+------------------------------
+train Loss: 1.0423 Acc: 0.6478
+2023-04-17 00:24:13.340464
+validation Loss: 1.3159 Acc: 0.5627
+2023-04-17 00:25:57.329066
+Epoch 36/350
+------------------------------
+Learning Rate: 0.009867012482863254
+------------------------------
+train Loss: 1.0244 Acc: 0.6516
+2023-04-17 01:03:44.776173
+validation Loss: 1.3965 Acc: 0.5503
+2023-04-17 01:05:28.789629
+Epoch 37/350
+------------------------------
+Learning Rate: 0.009856215115473363
+------------------------------
+train Loss: 1.0144 Acc: 0.6550
+2023-04-17 01:43:15.707200
+validation Loss: 1.1725 Acc: 0.5947
+2023-04-17 01:44:59.766314
+Epoch 38/350
+------------------------------
+Learning Rate: 0.009845002742801518
+------------------------------
+train Loss: 0.9980 Acc: 0.6640
+2023-04-17 02:22:47.542331
+validation Loss: 1.4084 Acc: 0.5545
+2023-04-17 02:24:31.452727
+Epoch 39/350
+------------------------------
+Learning Rate: 0.009833376323041251
+------------------------------
+train Loss: 0.9848 Acc: 0.6681
+2023-04-17 03:02:18.716223
+validation Loss: 1.4735 Acc: 0.5410
+2023-04-17 03:04:02.615131
+Epoch 40/350
+------------------------------
+Learning Rate: 0.009821336849769963
+------------------------------
+train Loss: 0.9994 Acc: 0.6637
+2023-04-17 03:41:49.675074
+validation Loss: 1.3737 Acc: 0.5640
+2023-04-17 03:43:33.567450
+Epoch 41/350
+------------------------------
+Learning Rate: 0.009808885351864027
+------------------------------
+train Loss: 0.9744 Acc: 0.6733
+2023-04-17 04:21:21.503280
+validation Loss: 1.1793 Acc: 0.6181
+2023-04-17 04:23:05.520997
+Epoch 42/350
+------------------------------
+Learning Rate: 0.009796022893410862
+------------------------------
+train Loss: 0.9786 Acc: 0.6695
+2023-04-17 05:00:53.247449
+validation Loss: 1.4258 Acc: 0.5634
+2023-04-17 05:02:37.294395
+Epoch 43/350
+------------------------------
+Learning Rate: 0.009782750573617993
+------------------------------
+train Loss: 0.9468 Acc: 0.6800
+2023-04-17 05:40:25.047630
+validation Loss: 1.5110 Acc: 0.5508
+2023-04-17 05:42:09.183161
+Epoch 44/350
+------------------------------
+Learning Rate: 0.009769069526719116
+------------------------------
+train Loss: 0.9418 Acc: 0.6833
+2023-04-17 06:19:55.791689
+validation Loss: 1.3490 Acc: 0.5616
+2023-04-17 06:21:39.778054
+Epoch 45/350
+------------------------------
+Learning Rate: 0.009754980921877167
+------------------------------
+train Loss: 0.9313 Acc: 0.6867
+2023-04-17 06:59:26.602382
+validation Loss: 1.3673 Acc: 0.5775
+2023-04-17 07:01:10.541889
+Epoch 46/350
+------------------------------
+Learning Rate: 0.009740485963084407
+------------------------------
+train Loss: 0.9249 Acc: 0.6907
+2023-04-17 07:38:57.993160
+validation Loss: 1.4313 Acc: 0.5666
+2023-04-17 07:40:42.132411
+Epoch 47/350
+------------------------------
+Learning Rate: 0.009725585889059534
+------------------------------
+train Loss: 0.9219 Acc: 0.6897
+2023-04-17 08:18:28.839668
+validation Loss: 1.4899 Acc: 0.5415
+2023-04-17 08:20:12.898945
+Epoch 48/350
+------------------------------
+Learning Rate: 0.009710281973141822
+------------------------------
+train Loss: 0.9080 Acc: 0.6933
+2023-04-17 08:57:59.628819
+validation Loss: 1.2529 Acc: 0.5943
+2023-04-17 08:59:43.767094
+Epoch 49/350
+------------------------------
+Learning Rate: 0.0096945755231823
+------------------------------
+train Loss: 0.8963 Acc: 0.6975
+2023-04-17 09:37:30.815678
+validation Loss: 1.1967 Acc: 0.6135
+2023-04-17 09:39:14.920233
+Epoch 50/350
+------------------------------
+Learning Rate: 0.009678467881431988
+------------------------------
+train Loss: 0.8930 Acc: 0.6996
+2023-04-17 10:17:02.040156
+validation Loss: 1.3571 Acc: 0.5757
+2023-04-17 10:18:46.181608
+Epoch 51/350
+------------------------------
+Learning Rate: 0.00966196042442719
+------------------------------
+train Loss: 0.8833 Acc: 0.7042
+2023-04-17 10:56:33.520878
+validation Loss: 1.3535 Acc: 0.5705
+2023-04-17 10:58:17.681749
+Epoch 52/350
+------------------------------
+Learning Rate: 0.009645054562871857
+------------------------------
+train Loss: 0.8822 Acc: 0.7048
+2023-04-17 11:36:04.999796
+validation Loss: 1.2516 Acc: 0.6099
+2023-04-17 11:37:49.044511
+Epoch 53/350
+------------------------------
+Learning Rate: 0.009627751741517029
+------------------------------
+train Loss: 0.8549 Acc: 0.7136
+2023-04-17 12:15:37.099793
+validation Loss: 1.2879 Acc: 0.6027
+2023-04-17 12:17:22.062725
+Epoch 54/350
+------------------------------
+Learning Rate: 0.009610053439037371
+------------------------------
+train Loss: 0.8600 Acc: 0.7110
+2023-04-17 12:55:14.884690
+validation Loss: 1.2098 Acc: 0.6131
+2023-04-17 12:56:59.599610
+Epoch 55/350
+------------------------------
+Learning Rate: 0.009591961167904804
+------------------------------
+train Loss: 0.8589 Acc: 0.7123
+2023-04-17 13:34:52.447370
+validation Loss: 1.2026 Acc: 0.6157
+2023-04-17 13:36:37.306067
+Epoch 56/350
+------------------------------
+Learning Rate: 0.009573476474259258
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:54.388992, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:02:25.944478, resuming normal operation.
+train Loss: 0.8433 Acc: 0.7154
+2023-04-17 14:14:30.049482
+validation Loss: 1.3229 Acc: 0.6043
+2023-04-17 14:16:14.965416
+Epoch 57/350
+------------------------------
+Learning Rate: 0.009554600937776528
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:48.808281, resuming normal operation.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+train Loss: 0.8437 Acc: 0.7157
+2023-04-17 14:54:07.868781
+validation Loss: 1.2667 Acc: 0.6139
+2023-04-17 14:55:53.018749
+Epoch 58/350
+------------------------------
+Learning Rate: 0.009535336171533295
+------------------------------
+wandb: Network error resolved after 0:03:32.715746, resuming normal operation.
+train Loss: 0.8399 Acc: 0.7154
+2023-04-17 15:33:45.556259
+validation Loss: 1.3374 Acc: 0.6014
+2023-04-17 15:35:30.547509
+Epoch 59/350
+------------------------------
+Learning Rate: 0.009515683821869259
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:41.906474, resuming normal operation.
+train Loss: 0.8253 Acc: 0.7215
+2023-04-17 16:13:23.321058
+validation Loss: 1.2470 Acc: 0.6086
+2023-04-17 16:15:08.212325
+Epoch 60/350
+------------------------------
+Learning Rate: 0.009495645568246454
+------------------------------
+train Loss: 0.8130 Acc: 0.7286
+2023-04-17 16:53:00.303614
+validation Loss: 1.2945 Acc: 0.5964
+2023-04-17 16:54:45.247478
+Epoch 61/350
+------------------------------
+Learning Rate: 0.00947522312310572
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:49.627686, resuming normal operation.
+train Loss: 0.8087 Acc: 0.7292
+2023-04-17 17:32:37.527291
+validation Loss: 1.2271 Acc: 0.6205
+2023-04-17 17:34:22.589801
+Epoch 62/350
+------------------------------
+Learning Rate: 0.009454418231720363
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+train Loss: 0.7936 Acc: 0.7354
+2023-04-17 18:12:16.215293
+validation Loss: 1.8436 Acc: 0.5199
+2023-04-17 18:14:01.213057
+Epoch 63/350
+------------------------------
+Learning Rate: 0.009433232672047003
+------------------------------
+wandb: Network error resolved after 0:03:46.823339, resuming normal operation.
+train Loss: 0.7884 Acc: 0.7369
+2023-04-17 18:51:54.331559
+validation Loss: 1.3614 Acc: 0.5890
+2023-04-17 18:53:39.310571
+Epoch 64/350
+------------------------------
+Learning Rate: 0.009411668254573635
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:05.634303, resuming normal operation.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:10.816794, resuming normal operation.
+train Loss: 0.7810 Acc: 0.7388
+2023-04-17 19:31:32.040976
+validation Loss: 1.5833 Acc: 0.5585
+2023-04-17 19:33:16.874179
+Epoch 65/350
+------------------------------
+Learning Rate: 0.009389726822164905
+------------------------------
+train Loss: 0.7824 Acc: 0.7361
+2023-04-17 20:11:09.317262
+validation Loss: 1.4089 Acc: 0.5888
+2023-04-17 20:12:54.253698
+Epoch 66/350
+------------------------------
+Learning Rate: 0.009367410249904624
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:06:06.980647, resuming normal operation.
+train Loss: 0.7703 Acc: 0.7427
+2023-04-17 20:50:46.745412
+validation Loss: 1.1732 Acc: 0.6180
+2023-04-17 20:52:31.758231
+Epoch 67/350
+------------------------------
+Learning Rate: 0.009344720444935523
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+train Loss: 0.7695 Acc: 0.7414
+2023-04-17 21:30:24.344665
+wandb: Network error resolved after 0:05:57.396163, resuming normal operation.
+validation Loss: 1.6560 Acc: 0.5310
+2023-04-17 21:32:09.071289
+Epoch 68/350
+------------------------------
+Learning Rate: 0.009321659346296276
+------------------------------
+train Loss: 0.7513 Acc: 0.7478
+2023-04-17 22:10:01.242260
+validation Loss: 1.3458 Acc: 0.6050
+2023-04-17 22:11:46.081661
+Epoch 69/350
+------------------------------
+Learning Rate: 0.009298228924755788
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:08.250336, resuming normal operation.
+train Loss: 0.7495 Acc: 0.7501
+2023-04-17 22:49:38.776265
+validation Loss: 1.3942 Acc: 0.5983
+2023-04-17 22:51:23.622342
+Epoch 70/350
+------------------------------
+Learning Rate: 0.009274431182644774
+------------------------------
+train Loss: 0.7482 Acc: 0.7484
+2023-04-17 23:29:15.755330
+validation Loss: 1.5263 Acc: 0.5605
+2023-04-17 23:31:00.722027
+Epoch 71/350
+------------------------------
+Learning Rate: 0.009250268153684649
+------------------------------
+train Loss: 0.7478 Acc: 0.7480
+2023-04-18 00:08:52.895424
+validation Loss: 1.3503 Acc: 0.5944
+2023-04-18 00:10:37.772785
+Epoch 72/350
+------------------------------
+Learning Rate: 0.009225741902813727
+------------------------------
+train Loss: 0.7238 Acc: 0.7577
+2023-04-18 00:48:30.448040
+validation Loss: 1.4399 Acc: 0.5729
+2023-04-18 00:50:15.374275
+Epoch 73/350
+------------------------------
+Learning Rate: 0.009200854526010752
+------------------------------
+train Loss: 0.7359 Acc: 0.7531
+2023-04-18 01:28:07.590098
+validation Loss: 1.4816 Acc: 0.5770
+2023-04-18 01:29:52.357574
+Epoch 74/350
+------------------------------
+Learning Rate: 0.00917560815011578
+------------------------------
+train Loss: 0.7226 Acc: 0.7567
+2023-04-18 02:07:44.892268
+validation Loss: 1.2900 Acc: 0.5916
+2023-04-18 02:09:29.723189
+Epoch 75/350
+------------------------------
+Learning Rate: 0.009150004932648418
+------------------------------
+train Loss: 0.7324 Acc: 0.7543
+2023-04-18 02:47:21.872140
+validation Loss: 1.1964 Acc: 0.6278
+2023-04-18 02:49:06.643214
+Epoch 76/350
+------------------------------
+Learning Rate: 0.00912404706162346
+------------------------------
+train Loss: 0.7276 Acc: 0.7571
+2023-04-18 03:26:59.012862
+validation Loss: 1.2943 Acc: 0.6086
+2023-04-18 03:28:43.759560
+Epoch 77/350
+------------------------------
+Learning Rate: 0.00909773675536388
+------------------------------
+train Loss: 0.7056 Acc: 0.7624
+2023-04-18 04:06:35.629722
+validation Loss: 1.3812 Acc: 0.6114
+2023-04-18 04:08:20.391510
+Epoch 78/350
+------------------------------
+Learning Rate: 0.009071076262311278
+------------------------------
+train Loss: 0.7113 Acc: 0.7619
+2023-04-18 04:46:12.806853
+validation Loss: 1.4502 Acc: 0.5975
+2023-04-18 04:47:57.676022
+Epoch 79/350
+------------------------------
+Learning Rate: 0.009044067860833716
+------------------------------
+train Loss: 0.6883 Acc: 0.7682
+2023-04-18 05:25:50.327429
+validation Loss: 1.2382 Acc: 0.6206
+2023-04-18 05:27:35.079149
+Epoch 80/350
+------------------------------
+Learning Rate: 0.009016713859031024
+------------------------------
+train Loss: 0.6735 Acc: 0.7761
+2023-04-18 06:05:27.858750
+validation Loss: 1.4284 Acc: 0.5884
+2023-04-18 06:07:12.652655
+Epoch 81/350
+------------------------------
+Learning Rate: 0.008989016594537545
+------------------------------
+train Loss: 0.6819 Acc: 0.7709
+2023-04-18 06:45:05.297393
+validation Loss: 1.1622 Acc: 0.6369
+2023-04-18 06:46:49.970614
+Epoch 82/350
+------------------------------
+Learning Rate: 0.008960978434322366
+------------------------------
+train Loss: 0.6770 Acc: 0.7741
+2023-04-18 07:24:42.677784
+validation Loss: 1.2401 Acc: 0.6228
+2023-04-18 07:26:27.511566
+Epoch 83/350
+------------------------------
+Learning Rate: 0.008932601774487039
+------------------------------
+train Loss: 0.6747 Acc: 0.7747
+2023-04-18 08:04:20.078032
+validation Loss: 1.3505 Acc: 0.6130
+2023-04-18 08:06:04.854190
+Epoch 84/350
+------------------------------
+Learning Rate: 0.00890388904006082
+------------------------------
+train Loss: 0.6647 Acc: 0.7784
+2023-04-18 08:43:57.235528
+validation Loss: 1.3603 Acc: 0.5987
+2023-04-18 08:45:42.076035
+Epoch 85/350
+------------------------------
+Learning Rate: 0.00887484268479342
+------------------------------
+train Loss: 0.6569 Acc: 0.7790
+2023-04-18 09:23:34.380813
+validation Loss: 1.3450 Acc: 0.6081
+2023-04-18 09:25:18.387498
+Epoch 86/350
+------------------------------
+Learning Rate: 0.00884546519094532
+------------------------------
+train Loss: 0.6515 Acc: 0.7820
+2023-04-18 10:03:05.949630
+validation Loss: 1.3103 Acc: 0.6091
+2023-04-18 10:04:50.046416
+Epoch 87/350
+------------------------------
+Learning Rate: 0.008815759069075634
+------------------------------
+train Loss: 0.6429 Acc: 0.7835
+2023-04-18 10:42:40.284087
+validation Loss: 1.2834 Acc: 0.6268
+2023-04-18 10:44:25.340572
+Epoch 88/350
+------------------------------
+Learning Rate: 0.008785726857827558
+------------------------------
+train Loss: 0.6368 Acc: 0.7874
+2023-04-18 11:22:19.190852
+validation Loss: 1.4759 Acc: 0.6070
+2023-04-18 11:24:04.144587
+Epoch 89/350
+------------------------------
+Learning Rate: 0.008755371123711435
+------------------------------
+train Loss: 0.6308 Acc: 0.7868
+2023-04-18 12:01:57.421033
+validation Loss: 1.2531 Acc: 0.6331
+2023-04-18 12:03:42.410422
+Epoch 90/350
+------------------------------
+Learning Rate: 0.008724694460885408
+------------------------------
+train Loss: 0.6230 Acc: 0.7899
+2023-04-18 12:41:36.328708
+validation Loss: 1.5147 Acc: 0.5896
+2023-04-18 12:43:21.285301
+Epoch 91/350
+------------------------------
+Learning Rate: 0.008693699490933736
+------------------------------
+train Loss: 0.6122 Acc: 0.7946
+2023-04-18 13:21:13.837735
+validation Loss: 1.2345 Acc: 0.6245
+2023-04-18 13:22:58.648431
+Epoch 92/350
+------------------------------
+Learning Rate: 0.008662388862642754
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:50.262578, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:49.976155, resuming normal operation.
+train Loss: 0.6191 Acc: 0.7922
+2023-04-18 14:00:51.907414
+validation Loss: 1.3627 Acc: 0.6095
+2023-04-18 14:02:36.990760
+Epoch 93/350
+------------------------------
+Learning Rate: 0.008630765251774516
+------------------------------
+train Loss: 0.6059 Acc: 0.7973
+2023-04-18 14:40:29.948244
+validation Loss: 1.2860 Acc: 0.6271
+2023-04-18 14:42:15.028566
+Epoch 94/350
+------------------------------
+Learning Rate: 0.008598831360838124
+------------------------------
+train Loss: 0.6180 Acc: 0.7926
+2023-04-18 15:20:08.435924
+validation Loss: 1.3757 Acc: 0.6029
+2023-04-18 15:21:53.434792
+Epoch 95/350
+------------------------------
+Learning Rate: 0.008566589918858772
+------------------------------
+train Loss: 0.5946 Acc: 0.8012
+2023-04-18 15:59:46.933241
+validation Loss: 1.3212 Acc: 0.6007
+2023-04-18 16:01:31.693809
+Epoch 96/350
+------------------------------
+Learning Rate: 0.008534043681144533
+------------------------------
+train Loss: 0.6027 Acc: 0.7969
+2023-04-18 16:39:24.888029
+validation Loss: 1.5232 Acc: 0.6017
+2023-04-18 16:41:09.954930
+Epoch 97/350
+------------------------------
+Learning Rate: 0.008501195429050899
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:42.159614, resuming normal operation.
+train Loss: 0.5863 Acc: 0.8020
+2023-04-18 17:19:02.759752
+validation Loss: 1.5087 Acc: 0.6093
+2023-04-18 17:20:47.595334
+Epoch 98/350
+------------------------------
+Learning Rate: 0.008468047969743075
+------------------------------
+train Loss: 0.5841 Acc: 0.8043
+2023-04-18 17:58:40.302989
+validation Loss: 1.2358 Acc: 0.6577
+2023-04-18 18:00:25.243077
+Epoch 99/350
+------------------------------
+Learning Rate: 0.0084346041359561
+------------------------------
+train Loss: 0.5844 Acc: 0.8030
+2023-04-18 18:38:18.818096
+validation Loss: 1.2547 Acc: 0.6447
+2023-04-18 18:40:03.065220
+Epoch 100/350
+------------------------------
+Learning Rate: 0.008400866785752753
+------------------------------
+train Loss: 0.5818 Acc: 0.8061
+2023-04-18 19:17:51.406421
+validation Loss: 1.2558 Acc: 0.6444
+2023-04-18 19:19:35.575583
+Epoch 101/350
+------------------------------
+Learning Rate: 0.008366838802279309
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:26.545568, resuming normal operation.
+train Loss: 0.5733 Acc: 0.8065
+2023-04-18 19:57:23.782497
+validation Loss: 1.1721 Acc: 0.6558
+2023-04-18 19:59:08.116492
+Epoch 102/350
+------------------------------
+Learning Rate: 0.008332523093519156
+------------------------------
+train Loss: 0.5636 Acc: 0.8107
+2023-04-18 20:36:56.462681
+validation Loss: 1.4801 Acc: 0.5924
+2023-04-18 20:38:40.709580
+Epoch 103/350
+------------------------------
+Learning Rate: 0.008297922592044276
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:44.049324, resuming normal operation.
+train Loss: 0.5641 Acc: 0.8099
+2023-04-18 21:16:29.299824
+validation Loss: 1.4448 Acc: 0.6081
+2023-04-18 21:18:13.448857
+Epoch 104/350
+------------------------------
+Learning Rate: 0.008263040254764634
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:59.624053, resuming normal operation.
+train Loss: 0.5546 Acc: 0.8137
+2023-04-18 21:56:01.792159
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:27.266003, resuming normal operation.
+validation Loss: 1.2243 Acc: 0.6543
+2023-04-18 21:57:45.915652
+Epoch 105/350
+------------------------------
+Learning Rate: 0.008227879062675487
+------------------------------
+train Loss: 0.5615 Acc: 0.8109
+2023-04-18 22:35:34.715550
+validation Loss: 1.3929 Acc: 0.6082
+2023-04-18 22:37:18.912614
+Epoch 106/350
+------------------------------
+Learning Rate: 0.008192442020602627
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:03.905544, resuming normal operation.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+train Loss: 0.5402 Acc: 0.8184
+2023-04-18 23:15:08.036056
+wandb: Network error resolved after 0:03:37.313065, resuming normal operation.
+validation Loss: 1.1957 Acc: 0.6510
+2023-04-18 23:16:52.196226
+Epoch 107/350
+------------------------------
+Learning Rate: 0.008156732156945597
+------------------------------
+train Loss: 0.5509 Acc: 0.8167
+2023-04-18 23:54:40.824574
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:40.897699, resuming normal operation.
+validation Loss: 1.4601 Acc: 0.6019
+2023-04-18 23:56:24.926196
+Epoch 108/350
+------------------------------
+Learning Rate: 0.008120752523418888
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:29.269041, resuming normal operation.
+train Loss: 0.5348 Acc: 0.8197
+2023-04-19 00:34:13.467624
+validation Loss: 1.3293 Acc: 0.6313
+2023-04-19 00:35:57.617547
+Epoch 109/350
+------------------------------
+Learning Rate: 0.008084506194791143
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:24.850730, resuming normal operation.
+train Loss: 0.5302 Acc: 0.8218
+2023-04-19 01:13:46.584287
+validation Loss: 1.2569 Acc: 0.6341
+2023-04-19 01:15:30.804910
+Epoch 110/350
+------------------------------
+Learning Rate: 0.008047996268622388
+------------------------------
+train Loss: 0.5355 Acc: 0.8207
+2023-04-19 01:53:19.711617
+validation Loss: 1.3679 Acc: 0.6422
+2023-04-19 01:55:03.953111
+Epoch 111/350
+------------------------------
+Learning Rate: 0.008011225864999328
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:29.995494, resuming normal operation.
+train Loss: 0.5279 Acc: 0.8204
+2023-04-19 02:32:52.404022
+validation Loss: 1.3935 Acc: 0.6253
+2023-04-19 02:34:36.454150
+Epoch 112/350
+------------------------------
+Learning Rate: 0.007974198126268697
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:30.807377, resuming normal operation.
+train Loss: 0.5209 Acc: 0.8252
+2023-04-19 03:12:25.019102
+validation Loss: 1.3912 Acc: 0.6423
+2023-04-19 03:14:09.256022
+Epoch 113/350
+------------------------------
+Learning Rate: 0.007936916216768728
+------------------------------
+train Loss: 0.5107 Acc: 0.8287
+2023-04-19 03:51:57.475079
+validation Loss: 1.4064 Acc: 0.6315
+2023-04-19 03:53:41.496853
+Epoch 114/350
+------------------------------
+Learning Rate: 0.007899383322558729
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:32.692766, resuming normal operation.
+train Loss: 0.5048 Acc: 0.8294
+2023-04-19 04:31:30.078416
+validation Loss: 1.4774 Acc: 0.6095
+2023-04-19 04:33:14.305714
+Epoch 115/350
+------------------------------
+Learning Rate: 0.007861602651146804
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:03:38.890987, resuming normal operation.
+train Loss: 0.5060 Acc: 0.8286
+2023-04-19 05:11:02.823457
+validation Loss: 1.1791 Acc: 0.6559
+2023-04-19 05:12:47.021981
+Epoch 116/350
+------------------------------
+Learning Rate: 0.007823577431215749
+------------------------------
+train Loss: 0.5048 Acc: 0.8302
+2023-04-19 05:50:35.274503
+validation Loss: 1.3222 Acc: 0.6325
+2023-04-19 05:52:19.485909
+Epoch 117/350
+------------------------------
+Learning Rate: 0.007785310912347127
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:03.329323, resuming normal operation.
+train Loss: 0.4887 Acc: 0.8349
+2023-04-19 06:30:07.908261
+validation Loss: 1.3858 Acc: 0.6257
+2023-04-19 06:31:52.050916
+Epoch 118/350
+------------------------------
+Learning Rate: 0.007746806364743572
+------------------------------
+train Loss: 0.4918 Acc: 0.8344
+2023-04-19 07:09:40.262039
+validation Loss: 1.3262 Acc: 0.6431
+2023-04-19 07:11:24.513023
+Epoch 119/350
+------------------------------
+Learning Rate: 0.007708067078949317
+------------------------------
+train Loss: 0.4722 Acc: 0.8417
+2023-04-19 07:49:12.175567
+validation Loss: 1.2477 Acc: 0.6613
+2023-04-19 07:50:56.377852
+Epoch 120/350
+------------------------------
+Learning Rate: 0.007669096365568985
+------------------------------
+train Loss: 0.4793 Acc: 0.8387
+2023-04-19 08:28:44.950189
+validation Loss: 1.4146 Acc: 0.6346
+2023-04-19 08:30:29.164861
+Epoch 121/350
+------------------------------
+Learning Rate: 0.007629897554984676
+------------------------------
+train Loss: 0.4647 Acc: 0.8431
+2023-04-19 09:08:17.478939
+validation Loss: 1.3027 Acc: 0.6353
+2023-04-19 09:10:01.566287
+Epoch 122/350
+------------------------------
+Learning Rate: 0.007590473997071356
+------------------------------
+train Loss: 0.4736 Acc: 0.8401
+2023-04-19 09:47:49.139597
+validation Loss: 1.4037 Acc: 0.6342
+2023-04-19 09:49:33.062851
+Epoch 123/350
+------------------------------
+Learning Rate: 0.007550829060910579
+------------------------------
+train Loss: 0.4595 Acc: 0.8438
+2023-04-19 10:27:21.089321
+validation Loss: 1.4552 Acc: 0.6126
+2023-04-19 10:29:05.123998
+Epoch 124/350
+------------------------------
+Learning Rate: 0.0075109661345025705
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:01.909492, resuming normal operation.
+train Loss: 0.4590 Acc: 0.8443
+2023-04-19 11:06:52.916817
+validation Loss: 1.2698 Acc: 0.6428
+2023-04-19 11:08:37.003658
+Epoch 125/350
+------------------------------
+Learning Rate: 0.0074708886244766945
+------------------------------
+train Loss: 0.4534 Acc: 0.8469
+2023-04-19 11:46:24.312825
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:59.424163, resuming normal operation.
+validation Loss: 1.3414 Acc: 0.6333
+2023-04-19 11:48:08.275915
+Epoch 126/350
+------------------------------
+Learning Rate: 0.00743059995580033
+------------------------------
+train Loss: 0.4415 Acc: 0.8506
+2023-04-19 12:25:55.415085
+validation Loss: 1.6764 Acc: 0.6057
+2023-04-19 12:27:39.500678
+Epoch 127/350
+------------------------------
+Learning Rate: 0.007390103571486173
+------------------------------
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:41.428504, resuming normal operation.
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:15.414719, resuming normal operation.
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: ERROR Error while calling W&B API: An internal error occurred. Please contact support. (<Response [500]>)
+wandb: ERROR Error while calling W&B API: An internal error occurred. Please contact support. (<Response [500]>)
+train Loss: 0.4366 Acc: 0.8522
+2023-04-19 13:05:26.968377
+wandb: Network error resolved after 0:02:23.534928, resuming normal operation.
+validation Loss: 1.3895 Acc: 0.6273
+2023-04-19 13:07:10.897215
+Epoch 128/350
+------------------------------
+Learning Rate: 0.007349402932298006
+------------------------------
+wandb: ERROR Error while calling W&B API: An internal error occurred. Please contact support. (<Response [500]>)
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:09.719450, resuming normal operation.
+train Loss: 0.4455 Acc: 0.8510
+2023-04-19 13:44:57.971651
+validation Loss: 1.4838 Acc: 0.6173
+2023-04-19 13:46:41.946605
+Epoch 129/350
+------------------------------
+Learning Rate: 0.007308501516454944
+------------------------------
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:39.985505, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:06:11.861105, resuming normal operation.
+train Loss: 0.4475 Acc: 0.8489
+2023-04-19 14:24:30.401681
+validation Loss: 1.4195 Acc: 0.6418
+2023-04-19 14:26:14.410328
+Epoch 130/350
+------------------------------
+Learning Rate: 0.007267402819334193
+------------------------------
+wandb: ERROR Error while calling W&B API: An internal error occurred. Please contact support. (<Response [500]>)
+wandb: ERROR Error while calling W&B API: An internal error occurred. Please contact support. (<Response [500]>)
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: ERROR Error while calling W&B API: An internal error occurred. Please contact support. (<Response [500]>)
+wandb: ERROR Error while calling W&B API: An internal error occurred. Please contact support. (<Response [500]>)
+wandb: Network error resolved after 0:02:24.195974, resuming normal operation.
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:15.481350, resuming normal operation.
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:03:19.375368, resuming normal operation.
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:47.960706, resuming normal operation.
+train Loss: 0.4339 Acc: 0.8530
+2023-04-19 15:04:06.405353
+validation Loss: 1.5786 Acc: 0.6271
+2023-04-19 15:05:51.394508
+Epoch 131/350
+------------------------------
+Learning Rate: 0.007226110353172333
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:06:14.458385, resuming normal operation.
+train Loss: 0.4403 Acc: 0.8522
+2023-04-19 15:43:45.335886
+validation Loss: 1.3942 Acc: 0.6403
+2023-04-19 15:45:30.261649
+Epoch 132/350
+------------------------------
+Learning Rate: 0.00718462764676518
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:02.484441, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+train Loss: 0.4191 Acc: 0.8584
+2023-04-19 16:23:23.108351
+validation Loss: 1.3674 Acc: 0.6349
+2023-04-19 16:25:08.039415
+Epoch 133/350
+------------------------------
+Learning Rate: 0.007142958245166206
+------------------------------
+wandb: Network error resolved after 0:06:05.290104, resuming normal operation.
+train Loss: 0.4171 Acc: 0.8568
+2023-04-19 17:03:00.654895
+validation Loss: 1.4094 Acc: 0.6401
+2023-04-19 17:04:45.498548
+Epoch 134/350
+------------------------------
+Learning Rate: 0.007101105709383594
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:26.275218, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:06:02.652825, resuming normal operation.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+train Loss: 0.4249 Acc: 0.8552
+2023-04-19 17:42:37.657612
+wandb: Network error resolved after 0:02:11.790455, resuming normal operation.
+validation Loss: 1.5223 Acc: 0.6272
+2023-04-19 17:44:22.469905
+Epoch 135/350
+------------------------------
+Learning Rate: 0.007059073616075915
+------------------------------
+train Loss: 0.3969 Acc: 0.8666
+2023-04-19 18:22:14.934391
+validation Loss: 1.4227 Acc: 0.6429
+2023-04-19 18:23:59.627648
+Epoch 136/350
+------------------------------
+Learning Rate: 0.00701686555724647
+------------------------------
+wandb: Network error (ConnectionError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:06:21.031192, resuming normal operation.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:06.095562, resuming normal operation.
+train Loss: 0.4071 Acc: 0.8622
+2023-04-19 19:01:52.004482
+wandb: Network error (ConnectionError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:40.996353, resuming normal operation.
+validation Loss: 1.2575 Acc: 0.6600
+2023-04-19 19:03:36.819675
+Epoch 137/350
+------------------------------
+Learning Rate: 0.006974485139936329
+------------------------------
+train Loss: 0.4028 Acc: 0.8630
+2023-04-19 19:41:29.358842
+wandb: Network error (ConnectionError), entering retry loop. See wandb/debug-internal.log for full traceback.
+validation Loss: 1.5851 Acc: 0.6300
+2023-04-19 19:43:14.572639
+Epoch 138/350
+------------------------------
+Learning Rate: 0.00693193598591607
+------------------------------
+wandb: Network error resolved after 0:03:40.509597, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:26.031896, resuming normal operation.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:28.100470, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+train Loss: 0.3923 Acc: 0.8673
+2023-04-19 20:21:06.775952
+validation Loss: 1.3294 Acc: 0.6521
+2023-04-19 20:22:51.537956
+Epoch 139/350
+------------------------------
+Learning Rate: 0.006889221731376275
+------------------------------
+wandb: Network error resolved after 0:22:49.725556, resuming normal operation.
+train Loss: 0.3936 Acc: 0.8661
+2023-04-19 21:00:46.200857
+validation Loss: 1.3606 Acc: 0.6407
+2023-04-19 21:02:31.123998
+Epoch 140/350
+------------------------------
+Learning Rate: 0.006846346026616781
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:25.667439, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:06:17.143556, resuming normal operation.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:02:13.708472, resuming normal operation.
+train Loss: 0.3864 Acc: 0.8672
+2023-04-19 21:40:26.369333
+validation Loss: 1.4665 Acc: 0.6322
+2023-04-19 21:42:11.268314
+Epoch 141/350
+------------------------------
+Learning Rate: 0.006803312535734733
+------------------------------
+train Loss: 0.3776 Acc: 0.8719
+2023-04-19 22:20:03.781968
+validation Loss: 1.4663 Acc: 0.6340
+2023-04-19 22:21:48.454801
+Epoch 142/350
+------------------------------
+Learning Rate: 0.006760124936311459
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:02:13.385947, resuming normal operation.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:06:18.923546, resuming normal operation.
+train Loss: 0.3678 Acc: 0.8747
+2023-04-19 22:59:40.764561
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:05.766705, resuming normal operation.
+validation Loss: 1.8165 Acc: 0.5963
+2023-04-19 23:01:25.592228
+Epoch 143/350
+------------------------------
+Learning Rate: 0.006716786919098177
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:06.391889, resuming normal operation.
+train Loss: 0.3881 Acc: 0.8703
+2023-04-19 23:39:17.460905
+validation Loss: 1.4932 Acc: 0.6282
+2023-04-19 23:41:01.967001
+Epoch 144/350
+------------------------------
+Learning Rate: 0.006673302187700604
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:06:09.722225, resuming normal operation.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:29.403548, resuming normal operation.
+train Loss: 0.3766 Acc: 0.8719
+2023-04-20 00:18:53.775258
+validation Loss: 1.4512 Acc: 0.6357
+2023-04-20 00:20:38.882761
+Epoch 145/350
+------------------------------
+Learning Rate: 0.006629674458262441
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:05.061955, resuming normal operation.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:06:06.580203, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:05:54.669486, resuming normal operation.
+train Loss: 0.3607 Acc: 0.8774
+2023-04-20 00:58:27.732768
+validation Loss: 1.4379 Acc: 0.6359
+2023-04-20 01:00:11.709943
+Epoch 146/350
+------------------------------
+Learning Rate: 0.006585907459147801
+------------------------------
+train Loss: 0.3645 Acc: 0.8757
+2023-04-20 01:38:00.040123
+validation Loss: 1.4504 Acc: 0.6325
+2023-04-20 01:39:44.077082
+Epoch 147/350
+------------------------------
+Learning Rate: 0.006542004930622584
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:02:38.380283, resuming normal operation.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:41.360197, resuming normal operation.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:45.621266, resuming normal operation.
+train Loss: 0.3598 Acc: 0.8778
+2023-04-20 02:17:31.785605
+validation Loss: 1.7327 Acc: 0.5924
+2023-04-20 02:19:15.859250
+Epoch 148/350
+------------------------------
+Learning Rate: 0.006497970624534846
+------------------------------
+train Loss: 0.3639 Acc: 0.8762
+2023-04-20 02:57:03.357099
+validation Loss: 1.6398 Acc: 0.6162
+2023-04-20 02:58:47.432111
+Epoch 149/350
+------------------------------
+Learning Rate: 0.006453808303994161
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:49.622455, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:48.651108, resuming normal operation.
+train Loss: 0.3448 Acc: 0.8818
+2023-04-20 03:36:35.487721
+validation Loss: 1.6266 Acc: 0.6228
+2023-04-20 03:38:19.542990
+Epoch 150/350
+------------------------------
+Learning Rate: 0.006409521743050044
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:03:54.603969, resuming normal operation.
+train Loss: 0.3474 Acc: 0.8810
+2023-04-20 04:16:07.236582
+validation Loss: 1.6021 Acc: 0.6141
+2023-04-20 04:17:51.280900
+Epoch 151/350
+------------------------------
+Learning Rate: 0.006365114726369418
+------------------------------
+train Loss: 0.3441 Acc: 0.8835
+2023-04-20 04:55:39.155293
+validation Loss: 1.5899 Acc: 0.6277
+2023-04-20 04:57:23.384189
+Epoch 152/350
+------------------------------
+Learning Rate: 0.006320591048913178
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:44.729646, resuming normal operation.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:49.361861, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:57.434636, resuming normal operation.
+train Loss: 0.3460 Acc: 0.8813
+2023-04-20 05:35:11.161082
+validation Loss: 1.4138 Acc: 0.6334
+2023-04-20 05:36:55.261146
+Epoch 153/350
+------------------------------
+Learning Rate: 0.006275954515611889
+------------------------------
+train Loss: 0.3308 Acc: 0.8868
+2023-04-20 06:14:43.577848
+validation Loss: 1.4280 Acc: 0.6473
+2023-04-20 06:16:27.667739
+Epoch 154/350
+------------------------------
+Learning Rate: 0.0062312089410406155
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:01.706791, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:48.789189, resuming normal operation.
+train Loss: 0.3196 Acc: 0.8907
+2023-04-20 06:54:16.101745
+validation Loss: 1.6188 Acc: 0.6289
+2023-04-20 06:56:00.238156
+Epoch 155/350
+------------------------------
+Learning Rate: 0.006186358149092936
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:49.260705, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:03:42.318246, resuming normal operation.
+train Loss: 0.3349 Acc: 0.8859
+2023-04-20 07:33:48.312158
+validation Loss: 1.5108 Acc: 0.6370
+2023-04-20 07:35:32.319592
+Epoch 156/350
+------------------------------
+Learning Rate: 0.006141405972654156
+------------------------------
+train Loss: 0.3229 Acc: 0.8900
+2023-04-20 08:13:19.601837
+validation Loss: 1.5645 Acc: 0.6407
+2023-04-20 08:15:03.637986
+Epoch 157/350
+------------------------------
+Learning Rate: 0.006096356253273756
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:02:24.454370, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error (ConnectionError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:47.477494, resuming normal operation.
+train Loss: 0.3156 Acc: 0.8920
+2023-04-20 08:52:51.084348
+validation Loss: 1.6039 Acc: 0.6146
+2023-04-20 08:54:35.229399
+Epoch 158/350
+------------------------------
+Learning Rate: 0.006051212840837099
+------------------------------
+train Loss: 0.3102 Acc: 0.8941
+2023-04-20 09:32:23.635954
+validation Loss: 1.5095 Acc: 0.6441
+2023-04-20 09:34:08.313720
+Epoch 159/350
+------------------------------
+Learning Rate: 0.006005979593236425
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:41.853531, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:48.240846, resuming normal operation.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:41.559535, resuming normal operation.
+train Loss: 0.3117 Acc: 0.8934
+2023-04-20 10:11:55.775885
+validation Loss: 1.5459 Acc: 0.6344
+2023-04-20 10:13:39.848555
+Epoch 160/350
+------------------------------
+Learning Rate: 0.005960660376041158
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:05:59.557713, resuming normal operation.
+train Loss: 0.3084 Acc: 0.8962
+2023-04-20 10:51:26.956250
+validation Loss: 1.6354 Acc: 0.6269
+2023-04-20 10:53:10.894015
+Epoch 161/350
+------------------------------
+Learning Rate: 0.005915259062167567
+------------------------------
+train Loss: 0.3004 Acc: 0.8962
+2023-04-20 11:30:59.054765
+validation Loss: 1.5472 Acc: 0.6458
+2023-04-20 11:32:43.085098
+Epoch 162/350
+------------------------------
+Learning Rate: 0.00586977953154778
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:50.370347, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:03:39.735080, resuming normal operation.
+train Loss: 0.2939 Acc: 0.8998
+2023-04-20 12:10:30.554836
+validation Loss: 1.4591 Acc: 0.6618
+2023-04-20 12:12:14.594055
+Epoch 163/350
+------------------------------
+Learning Rate: 0.005824225670798223
+------------------------------
+train Loss: 0.2948 Acc: 0.9005
+2023-04-20 12:50:02.111107
+validation Loss: 1.4135 Acc: 0.6475
+2023-04-20 12:51:46.063824
+Epoch 164/350
+------------------------------
+Learning Rate: 0.005778601372887469
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+train Loss: 0.3004 Acc: 0.8971
+2023-04-20 13:29:33.275162
+validation Loss: 1.5358 Acc: 0.6398
+2023-04-20 13:31:17.227696
+Epoch 165/350
+------------------------------
+Learning Rate: 0.0057329105368035494
+------------------------------
+wandb: Network error resolved after 0:06:25.067877, resuming normal operation.
+train Loss: 0.2899 Acc: 0.8997
+2023-04-20 14:09:04.194771
+validation Loss: 1.4144 Acc: 0.6633
+2023-04-20 14:10:48.012369
+Epoch 166/350
+------------------------------
+Learning Rate: 0.005687157067220754
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:03:49.761063, resuming normal operation.
+train Loss: 0.2745 Acc: 0.9049
+2023-04-20 14:48:37.963990
+validation Loss: 1.6235 Acc: 0.6421
+2023-04-20 14:50:22.838422
+Epoch 167/350
+------------------------------
+Learning Rate: 0.005641344874165946
+------------------------------
+train Loss: 0.2798 Acc: 0.9034
+2023-04-20 15:28:16.141551
+validation Loss: 1.6684 Acc: 0.6263
+2023-04-20 15:30:01.004853
+Epoch 168/350
+------------------------------
+Learning Rate: 0.005595477872684411
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:03:54.190887, resuming normal operation.
+train Loss: 0.2753 Acc: 0.9046
+2023-04-20 16:07:54.193275
+validation Loss: 1.4721 Acc: 0.6478
+2023-04-20 16:09:39.230697
+Epoch 169/350
+------------------------------
+Learning Rate: 0.005549559982505281
+------------------------------
+train Loss: 0.2619 Acc: 0.9092
+2023-04-20 16:47:31.724568
+validation Loss: 1.5554 Acc: 0.6292
+2023-04-20 16:49:16.556684
+Epoch 170/350
+------------------------------
+Learning Rate: 0.005503595127706575
+------------------------------
+wandb: Network error (ConnectionError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:06:25.361099, resuming normal operation.
+train Loss: 0.2609 Acc: 0.9117
+2023-04-20 17:27:08.862657
+validation Loss: 1.7077 Acc: 0.6342
+2023-04-20 17:28:53.772575
+Epoch 171/350
+------------------------------
+Learning Rate: 0.005457587236379834
+------------------------------
+wandb: Network error (ConnectionError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:02:29.206688, resuming normal operation.
+train Loss: 0.2632 Acc: 0.9117
+2023-04-20 18:06:46.306910
+validation Loss: 1.3387 Acc: 0.6723
+2023-04-20 18:08:31.172163
+Epoch 172/350
+------------------------------
+Learning Rate: 0.005411540240294442
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:21.548563, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:03:39.263166, resuming normal operation.
+train Loss: 0.2569 Acc: 0.9119
+2023-04-20 18:46:24.076260
+validation Loss: 1.4935 Acc: 0.6455
+2023-04-20 18:48:09.172357
+Epoch 173/350
+------------------------------
+Learning Rate: 0.005365458074561617
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:13.500073, resuming normal operation.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:50.012056, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:17.125200, resuming normal operation.
+train Loss: 0.2600 Acc: 0.9113
+2023-04-20 19:26:02.076559
+validation Loss: 1.3743 Acc: 0.6625
+2023-04-20 19:27:46.948856
+Epoch 174/350
+------------------------------
+Learning Rate: 0.005319344677298134
+------------------------------
+train Loss: 0.2551 Acc: 0.9122
+2023-04-20 20:05:39.510802
+validation Loss: 1.6548 Acc: 0.6330
+2023-04-20 20:07:24.395546
+Epoch 175/350
+------------------------------
+Learning Rate: 0.005273203989289761
+------------------------------
+train Loss: 0.2533 Acc: 0.9133
+2023-04-20 20:45:16.430906
+validation Loss: 1.4769 Acc: 0.6452
+2023-04-20 20:47:01.121465
+Epoch 176/350
+------------------------------
+Learning Rate: 0.0052270399536545
+------------------------------
+wandb: Network error (ConnectionError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:48.783190, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:06:27.285594, resuming normal operation.
+train Loss: 0.2463 Acc: 0.9146
+2023-04-20 21:24:53.755445
+validation Loss: 1.9701 Acc: 0.6033
+2023-04-20 21:26:38.559187
+Epoch 177/350
+------------------------------
+Learning Rate: 0.005180856515505606
+------------------------------
+train Loss: 0.2350 Acc: 0.9199
+2023-04-20 22:04:30.596549
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+validation Loss: 1.6470 Acc: 0.6563
+2023-04-20 22:06:15.369158
+Epoch 178/350
+------------------------------
+Learning Rate: 0.005134657621614448
+------------------------------
+wandb: Network error resolved after 0:06:32.637485, resuming normal operation.
+train Loss: 0.2328 Acc: 0.9209
+2023-04-20 22:44:07.570191
+validation Loss: 1.5050 Acc: 0.6634
+2023-04-20 22:45:52.546122
+Epoch 179/350
+------------------------------
+Learning Rate: 0.005088447220073217
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:03:40.968100, resuming normal operation.
+train Loss: 0.2373 Acc: 0.9180
+2023-04-20 23:23:45.154722
+validation Loss: 1.7531 Acc: 0.6491
+2023-04-20 23:25:30.112555
+Epoch 180/350
+------------------------------
+Learning Rate: 0.005042229259957533
+------------------------------
+train Loss: 0.2343 Acc: 0.9204
+2023-04-21 00:03:21.683131
+validation Loss: 1.5788 Acc: 0.6592
+2023-04-21 00:05:06.465943
+Epoch 181/350
+------------------------------
+Learning Rate: 0.004996007690988963
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:39.188379, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:39.916755, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:00.777276, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:06.708815, resuming normal operation.
+train Loss: 0.2286 Acc: 0.9229
+2023-04-21 00:42:58.573185
+validation Loss: 1.6712 Acc: 0.6392
+2023-04-21 00:44:43.686347
+Epoch 182/350
+------------------------------
+Learning Rate: 0.004949786463197482
+------------------------------
+train Loss: 0.2265 Acc: 0.9229
+2023-04-21 01:22:36.737059
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+validation Loss: 1.6172 Acc: 0.6556
+2023-04-21 01:24:21.570585
+Epoch 183/350
+------------------------------
+Learning Rate: 0.004903569526583902
+------------------------------
+wandb: Network error resolved after 0:06:00.309763, resuming normal operation.
+train Loss: 0.2161 Acc: 0.9248
+2023-04-21 02:02:12.958338
+validation Loss: 1.4285 Acc: 0.6767
+2023-04-21 02:03:57.635409
+Epoch 184/350
+------------------------------
+Learning Rate: 0.0048573608307823255
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:58.039973, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:03:40.952713, resuming normal operation.
+train Loss: 0.2262 Acc: 0.9220
+2023-04-21 02:41:50.322736
+validation Loss: 1.8078 Acc: 0.6352
+2023-04-21 02:43:35.300816
+Epoch 185/350
+------------------------------
+Learning Rate: 0.004811164324722601
+------------------------------
+train Loss: 0.2138 Acc: 0.9267
+2023-04-21 03:21:26.740653
+validation Loss: 1.7545 Acc: 0.6401
+2023-04-21 03:23:11.327905
+Epoch 186/350
+------------------------------
+Learning Rate: 0.004764983956292863
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:38.180515, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:02:24.616373, resuming normal operation.
+train Loss: 0.2090 Acc: 0.9288
+2023-04-21 04:00:59.258552
+validation Loss: 1.6159 Acc: 0.6612
+2023-04-21 04:02:43.264084
+Epoch 187/350
+------------------------------
+Learning Rate: 0.004718823672002142
+------------------------------
+train Loss: 0.2049 Acc: 0.9300
+2023-04-21 04:40:30.594555
+validation Loss: 1.6979 Acc: 0.6487
+2023-04-21 04:42:14.590202
+Epoch 188/350
+------------------------------
+Learning Rate: 0.00467268741664311
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:48.394014, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:05:52.474617, resuming normal operation.
+train Loss: 0.2036 Acc: 0.9306
+2023-04-21 05:20:02.300930
+validation Loss: 1.8227 Acc: 0.6314
+2023-04-21 05:21:46.306204
+Epoch 189/350
+------------------------------
+Learning Rate: 0.00462657913295496
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:06:21.853610, resuming normal operation.
+train Loss: 0.2040 Acc: 0.9301
+2023-04-21 05:59:33.715887
+validation Loss: 1.5737 Acc: 0.6549
+2023-04-21 06:01:17.660380
+Epoch 190/350
+------------------------------
+Learning Rate: 0.004580502761286467
+------------------------------
+train Loss: 0.1926 Acc: 0.9337
+2023-04-21 06:39:04.723317
+validation Loss: 1.5159 Acc: 0.6716
+2023-04-21 06:40:48.551377
+Epoch 191/350
+------------------------------
+Learning Rate: 0.004534462239259244
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:06:16.424370, resuming normal operation.
+train Loss: 0.1971 Acc: 0.9311
+2023-04-21 07:18:35.846419
+validation Loss: 1.7679 Acc: 0.6512
+2023-04-21 07:20:19.914817
+Epoch 192/350
+------------------------------
+Learning Rate: 0.00448846150143125
+------------------------------
+train Loss: 0.1889 Acc: 0.9342
+2023-04-21 07:58:07.740049
+validation Loss: 1.6630 Acc: 0.6659
+2023-04-21 07:59:51.593225
+Epoch 193/350
+------------------------------
+Learning Rate: 0.004442504478960544
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:03:33.632528, resuming normal operation.
+train Loss: 0.1877 Acc: 0.9356
+2023-04-21 08:37:39.367276
+validation Loss: 1.7234 Acc: 0.6495
+2023-04-21 08:39:23.335784
+Epoch 194/350
+------------------------------
+Learning Rate: 0.004396595099269324
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:32.004349, resuming normal operation.
+wandb: Network error (ConnectionError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:02:25.636984, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:32.743500, resuming normal operation.
+train Loss: 0.1820 Acc: 0.9370
+2023-04-21 09:17:10.873123
+validation Loss: 1.7188 Acc: 0.6572
+2023-04-21 09:18:54.917484
+Epoch 195/350
+------------------------------
+Learning Rate: 0.0043507372857083115
+------------------------------
+train Loss: 0.1708 Acc: 0.9415
+2023-04-21 09:56:42.735417
+validation Loss: 1.9107 Acc: 0.6418
+2023-04-21 09:58:26.756812
+Epoch 196/350
+------------------------------
+Learning Rate: 0.0043049349572214565
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:03:39.985209, resuming normal operation.
+train Loss: 0.1842 Acc: 0.9368
+2023-04-21 10:36:14.238496
+validation Loss: 1.8669 Acc: 0.6374
+2023-04-21 10:37:58.273177
+Epoch 197/350
+------------------------------
+Learning Rate: 0.004259192028011034
+------------------------------
+train Loss: 0.1799 Acc: 0.9385
+2023-04-21 11:15:45.901595
+validation Loss: 1.6667 Acc: 0.6548
+2023-04-21 11:17:29.830885
+Epoch 198/350
+------------------------------
+Learning Rate: 0.004213512407203136
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:47.910416, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:03:31.375244, resuming normal operation.
+train Loss: 0.1674 Acc: 0.9427
+2023-04-21 11:55:17.424131
+validation Loss: 1.6398 Acc: 0.6615
+2023-04-21 11:57:01.383972
+Epoch 199/350
+------------------------------
+Learning Rate: 0.004167899998513614
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:06:08.700311, resuming normal operation.
+train Loss: 0.1645 Acc: 0.9438
+2023-04-21 12:34:48.766958
+validation Loss: 1.6753 Acc: 0.6590
+2023-04-21 12:36:32.723022
+Epoch 200/350
+------------------------------
+Learning Rate: 0.004122358699914464
+------------------------------
+train Loss: 0.1660 Acc: 0.9421
+2023-04-21 13:14:20.295146
+validation Loss: 1.5933 Acc: 0.6652
+2023-04-21 13:16:04.386180
+Epoch 201/350
+------------------------------
+Learning Rate: 0.004076892403300716
+------------------------------
+train Loss: 0.1588 Acc: 0.9451
+2023-04-21 13:53:52.519681
+validation Loss: 1.8753 Acc: 0.6437
+2023-04-21 13:55:36.500279
+Epoch 202/350
+------------------------------
+Learning Rate: 0.0040315049941578324
+------------------------------
+wandb: Network error (ConnectionError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:06:30.133825, resuming normal operation.
+train Loss: 0.1582 Acc: 0.9451
+2023-04-21 14:33:23.430398
+validation Loss: 1.9894 Acc: 0.6413
+2023-04-21 14:35:07.391696
+Epoch 203/350
+------------------------------
+Learning Rate: 0.003986200351229668
+------------------------------
+train Loss: 0.1586 Acc: 0.9445
+2023-04-21 15:12:54.405493
+validation Loss: 1.8396 Acc: 0.6516
+2023-04-21 15:14:38.338887
+Epoch 204/350
+------------------------------
+Learning Rate: 0.003940982346186993
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:36.064648, resuming normal operation.
+train Loss: 0.1525 Acc: 0.9476
+2023-04-21 15:52:25.619729
+validation Loss: 1.6357 Acc: 0.6577
+2023-04-21 15:54:09.600955
+Epoch 205/350
+------------------------------
+Learning Rate: 0.003895854843296621
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:59.139606, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+train Loss: 0.1487 Acc: 0.9498
+2023-04-21 16:31:56.956432
+validation Loss: 1.9654 Acc: 0.6331
+2023-04-21 16:33:41.033104
+Epoch 206/350
+------------------------------
+Learning Rate: 0.0038508216990911894
+------------------------------
+train Loss: 0.1530 Acc: 0.9470
+2023-04-21 17:11:28.276360
+validation Loss: 1.8686 Acc: 0.6424
+2023-04-21 17:13:12.129284
+Epoch 207/350
+------------------------------
+Learning Rate: 0.003805886762039566
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:02.175189, resuming normal operation.
+train Loss: 0.1502 Acc: 0.9479
+2023-04-21 17:51:00.067117
+validation Loss: 1.7355 Acc: 0.6648
+2023-04-21 17:52:44.051311
+Epoch 208/350
+------------------------------
+Learning Rate: 0.0037610538722179826
+------------------------------
+train Loss: 0.1410 Acc: 0.9517
+2023-04-21 18:30:31.001972
+validation Loss: 1.9552 Acc: 0.6480
+2023-04-21 18:32:15.074278
+Epoch 209/350
+------------------------------
+Learning Rate: 0.003716326860981851
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:44.905377, resuming normal operation.
+wandb: Network error (ConnectionError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:38.533674, resuming normal operation.
+train Loss: 0.1411 Acc: 0.9521
+2023-04-21 19:10:02.360237
+validation Loss: 1.7380 Acc: 0.6719
+2023-04-21 19:11:46.245115
+Epoch 210/350
+------------------------------
+Learning Rate: 0.0036717095506383526
+------------------------------
+train Loss: 0.1357 Acc: 0.9523
+2023-04-21 19:49:33.347752
+validation Loss: 1.8167 Acc: 0.6652
+2023-04-21 19:51:17.313692
+Epoch 211/350
+------------------------------
+Learning Rate: 0.0036272057541197867
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:01.610717, resuming normal operation.
+train Loss: 0.1364 Acc: 0.9531
+2023-04-21 20:29:04.961167
+validation Loss: 1.7675 Acc: 0.6533
+2023-04-21 20:30:49.090246
+Epoch 212/350
+------------------------------
+Learning Rate: 0.0035828192746577216
+------------------------------
+train Loss: 0.1270 Acc: 0.9559
+2023-04-21 21:08:36.512564
+validation Loss: 1.8591 Acc: 0.6527
+2023-04-21 21:10:20.430245
+Epoch 213/350
+------------------------------
+Learning Rate: 0.003538553905457969
+------------------------------
+train Loss: 0.1215 Acc: 0.9576
+2023-04-21 21:48:07.269983
+validation Loss: 1.9667 Acc: 0.6460
+2023-04-21 21:49:51.426408
+Epoch 214/350
+------------------------------
+Learning Rate: 0.003494413429376437
+------------------------------
+train Loss: 0.1216 Acc: 0.9578
+2023-04-21 22:27:38.932857
+validation Loss: 1.7593 Acc: 0.6709
+2023-04-21 22:29:22.958912
+Epoch 215/350
+------------------------------
+Learning Rate: 0.0034504016185958426
+------------------------------
+train Loss: 0.1204 Acc: 0.9569
+2023-04-21 23:07:10.357367
+validation Loss: 1.9586 Acc: 0.6523
+2023-04-21 23:08:54.435058
+Epoch 216/350
+------------------------------
+Learning Rate: 0.0034065222343033458
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:06.237553, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:49.402810, resuming normal operation.
+wandb: Network error (ConnectionError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:00.611999, resuming normal operation.
+train Loss: 0.1253 Acc: 0.9571
+2023-04-21 23:46:41.655652
+validation Loss: 1.8612 Acc: 0.6542
+2023-04-21 23:48:25.633852
+Epoch 217/350
+------------------------------
+Learning Rate: 0.0033627790263691237
+------------------------------
+train Loss: 0.1127 Acc: 0.9613
+2023-04-22 00:26:13.154047
+validation Loss: 1.8986 Acc: 0.6574
+2023-04-22 00:27:57.068992
+Epoch 218/350
+------------------------------
+Learning Rate: 0.003319175733025921
+------------------------------
+train Loss: 0.1137 Acc: 0.9609
+2023-04-22 01:05:44.626721
+validation Loss: 1.9538 Acc: 0.6593
+2023-04-22 01:07:28.643701
+Epoch 219/350
+------------------------------
+Learning Rate: 0.0032757160805495754
+------------------------------
+train Loss: 0.1147 Acc: 0.9604
+2023-04-22 01:45:16.299155
+validation Loss: 1.8526 Acc: 0.6541
+2023-04-22 01:47:00.406146
+Epoch 220/350
+------------------------------
+Learning Rate: 0.0032324037829405757
+------------------------------
+train Loss: 0.1064 Acc: 0.9623
+2023-04-22 02:24:47.675931
+validation Loss: 1.9798 Acc: 0.6564
+2023-04-22 02:26:31.705593
+Epoch 221/350
+------------------------------
+Learning Rate: 0.0031892425416066785
+------------------------------
+train Loss: 0.1092 Acc: 0.9623
+2023-04-22 03:04:19.428432
+validation Loss: 1.7654 Acc: 0.6746
+2023-04-22 03:06:03.408223
+Epoch 222/350
+------------------------------
+Learning Rate: 0.00314623604504658
+------------------------------
+train Loss: 0.1010 Acc: 0.9653
+2023-04-22 03:43:50.768339
+validation Loss: 1.9139 Acc: 0.6598
+2023-04-22 03:45:34.680241
+Epoch 223/350
+------------------------------
+Learning Rate: 0.00310338796853471
+------------------------------
+train Loss: 0.0996 Acc: 0.9649
+2023-04-22 04:23:21.848672
+validation Loss: 2.0057 Acc: 0.6516
+2023-04-22 04:25:05.917577
+Epoch 224/350
+------------------------------
+Learning Rate: 0.0030607019738071407
+------------------------------
+train Loss: 0.0977 Acc: 0.9671
+2023-04-22 05:02:53.912406
+validation Loss: 2.0387 Acc: 0.6606
+2023-04-22 05:04:37.865874
+Epoch 225/350
+------------------------------
+Learning Rate: 0.003018181708748668
+------------------------------
+train Loss: 0.1001 Acc: 0.9653
+2023-04-22 05:42:25.497052
+validation Loss: 2.0902 Acc: 0.6417
+2023-04-22 05:44:09.513373
+Epoch 226/350
+------------------------------
+Learning Rate: 0.0029758308070810613
+------------------------------
+train Loss: 0.0946 Acc: 0.9686
+2023-04-22 06:21:56.897578
+validation Loss: 2.0619 Acc: 0.6483
+2023-04-22 06:23:40.902035
+Epoch 227/350
+------------------------------
+Learning Rate: 0.0029336528880525383
+------------------------------
+train Loss: 0.0935 Acc: 0.9679
+2023-04-22 07:01:28.077033
+validation Loss: 1.9826 Acc: 0.6549
+2023-04-22 07:03:12.007274
+Epoch 228/350
+------------------------------
+Learning Rate: 0.0028916515561284574
+------------------------------
+train Loss: 0.0895 Acc: 0.9692
+2023-04-22 07:40:59.597405
+validation Loss: 2.0741 Acc: 0.6406
+2023-04-22 07:42:43.461423
+Epoch 229/350
+------------------------------
+Learning Rate: 0.002849830400683302
+------------------------------
+train Loss: 0.0854 Acc: 0.9712
+2023-04-22 08:20:31.172794
+validation Loss: 1.7712 Acc: 0.6800
+2023-04-22 08:22:15.066674
+Epoch 230/350
+------------------------------
+Learning Rate: 0.002808192995693919
+------------------------------
+train Loss: 0.0865 Acc: 0.9702
+2023-04-22 09:00:03.013931
+validation Loss: 2.2203 Acc: 0.6449
+2023-04-22 09:01:46.968970
+Epoch 231/350
+------------------------------
+Learning Rate: 0.002766742899434109
+------------------------------
+train Loss: 0.0855 Acc: 0.9702
+2023-04-22 09:39:34.503762
+validation Loss: 2.0243 Acc: 0.6647
+2023-04-22 09:41:18.549541
+Epoch 232/350
+------------------------------
+Learning Rate: 0.0027254836541705262
+------------------------------
+train Loss: 0.0812 Acc: 0.9723
+2023-04-22 10:19:06.373864
+validation Loss: 1.9625 Acc: 0.6722
+2023-04-22 10:20:50.544499
+Epoch 233/350
+------------------------------
+Learning Rate: 0.002684418785859972
+------------------------------
+train Loss: 0.0766 Acc: 0.9738
+2023-04-22 10:58:38.289500
+validation Loss: 2.0669 Acc: 0.6548
+2023-04-22 11:00:22.241415
+Epoch 234/350
+------------------------------
+Learning Rate: 0.002643551803848072
+------------------------------
+train Loss: 0.0698 Acc: 0.9762
+2023-04-22 11:38:09.321855
+validation Loss: 2.2138 Acc: 0.6514
+2023-04-22 11:39:53.356596
+Epoch 235/350
+------------------------------
+Learning Rate: 0.0026028862005693576
+------------------------------
+train Loss: 0.0771 Acc: 0.9742
+2023-04-22 12:17:40.121081
+validation Loss: 1.9054 Acc: 0.6737
+2023-04-22 12:19:24.164144
+Epoch 236/350
+------------------------------
+Learning Rate: 0.002562425451248831
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:01.939907, resuming normal operation.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:54.193425, resuming normal operation.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+train Loss: 0.0763 Acc: 0.9739
+2023-04-22 12:57:11.262543
+wandb: Network error resolved after 0:03:31.633590, resuming normal operation.
+validation Loss: 2.0578 Acc: 0.6559
+2023-04-22 12:58:55.200486
+Epoch 237/350
+------------------------------
+Learning Rate: 0.002522173013604952
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:02:18.708891, resuming normal operation.
+train Loss: 0.0724 Acc: 0.9750
+2023-04-22 13:36:43.399992
+validation Loss: 2.0083 Acc: 0.6651
+2023-04-22 13:38:27.342271
+Epoch 238/350
+------------------------------
+Learning Rate: 0.00248213232755417
+------------------------------
+wandb: Network error (ConnectionError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:33.661364, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:03:49.785325, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:40.472401, resuming normal operation.
+train Loss: 0.0735 Acc: 0.9741
+2023-04-22 14:16:16.592708
+validation Loss: 2.1197 Acc: 0.6622
+2023-04-22 14:18:00.576177
+Epoch 239/350
+------------------------------
+Learning Rate: 0.0024423068149169343
+------------------------------
+train Loss: 0.0633 Acc: 0.9783
+2023-04-22 14:55:47.972987
+validation Loss: 1.9870 Acc: 0.6807
+2023-04-22 14:57:32.040401
+Epoch 240/350
+------------------------------
+Learning Rate: 0.0024026998791252824
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:49.257807, resuming normal operation.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:03:59.782571, resuming normal operation.
+train Loss: 0.0645 Acc: 0.9778
+2023-04-22 15:35:20.337957
+validation Loss: 2.0687 Acc: 0.6703
+2023-04-22 15:37:04.377102
+Epoch 241/350
+------------------------------
+Learning Rate: 0.002363314904931983
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:08.693731, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+train Loss: 0.0629 Acc: 0.9777
+2023-04-22 16:14:52.555278
+validation Loss: 2.1567 Acc: 0.6615
+2023-04-22 16:16:36.531304
+Epoch 242/350
+------------------------------
+Learning Rate: 0.0023241552581212822
+------------------------------
+wandb: Network error resolved after 0:06:33.707495, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:03:36.593011, resuming normal operation.
+train Loss: 0.0597 Acc: 0.9794
+2023-04-22 16:54:24.025616
+validation Loss: 2.0953 Acc: 0.6754
+2023-04-22 16:56:08.068864
+Epoch 243/350
+------------------------------
+Learning Rate: 0.002285224285221261
+------------------------------
+train Loss: 0.0600 Acc: 0.9792
+2023-04-22 17:33:55.882597
+validation Loss: 2.1503 Acc: 0.6613
+2023-04-22 17:35:39.870640
+Epoch 244/350
+------------------------------
+Learning Rate: 0.002246525313217853
+------------------------------
+wandb: Network error (ConnectionError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:44.791649, resuming normal operation.
+wandb: Network error (ConnectionError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:16.029970, resuming normal operation.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:02:27.343455, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:40.822278, resuming normal operation.
+wandb: Network error (ConnectionError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:03:47.119999, resuming normal operation.
+train Loss: 0.0583 Acc: 0.9795
+2023-04-22 18:13:27.178148
+validation Loss: 2.1692 Acc: 0.6722
+2023-04-22 18:15:11.192671
+Epoch 245/350
+------------------------------
+Learning Rate: 0.0022080616492705274
+------------------------------
+wandb: Network error (ConnectionError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:45.341467, resuming normal operation.
+wandb: Network error (ConnectionError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:50.018140, resuming normal operation.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:46.921205, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:06:22.059338, resuming normal operation.
+train Loss: 0.0572 Acc: 0.9808
+2023-04-22 18:52:58.342543
+validation Loss: 2.4446 Acc: 0.6441
+2023-04-22 18:54:42.402035
+Epoch 246/350
+------------------------------
+Learning Rate: 0.0021698365804296528
+------------------------------
+train Loss: 0.0563 Acc: 0.9809
+2023-04-22 19:32:29.803005
+validation Loss: 1.9685 Acc: 0.6850
+2023-04-22 19:34:13.717679
+Epoch 247/350
+------------------------------
+Learning Rate: 0.0021318533733556025
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:29.520431, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+train Loss: 0.0534 Acc: 0.9818
+2023-04-22 20:12:01.267531
+validation Loss: 2.1882 Acc: 0.6647
+2023-04-22 20:13:45.355885
+Epoch 248/350
+------------------------------
+Learning Rate: 0.0020941152740395837
+------------------------------
+wandb: Network error resolved after 0:06:48.402873, resuming normal operation.
+wandb: Network error (ConnectionError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:47.678133, resuming normal operation.
+train Loss: 0.0551 Acc: 0.9812
+2023-04-22 20:51:32.350764
+validation Loss: 2.1122 Acc: 0.6723
+2023-04-22 20:53:16.408585
+Epoch 249/350
+------------------------------
+Learning Rate: 0.002056625507526239
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+train Loss: 0.0501 Acc: 0.9828
+2023-04-22 21:31:03.311476
+wandb: Network error resolved after 0:06:31.936868, resuming normal operation.
+validation Loss: 2.1532 Acc: 0.6627
+2023-04-22 21:32:47.294973
+Epoch 250/350
+------------------------------
+Learning Rate: 0.0020193872776380403
+------------------------------
+train Loss: 0.0448 Acc: 0.9845
+2023-04-22 22:10:33.870132
+validation Loss: 2.1286 Acc: 0.6784
+2023-04-22 22:12:17.977061
+Epoch 251/350
+------------------------------
+Learning Rate: 0.0019824037667014968
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:38.346996, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:45.294614, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:01.287728, resuming normal operation.
+train Loss: 0.0445 Acc: 0.9850
+2023-04-22 22:50:04.858690
+validation Loss: 2.2446 Acc: 0.6648
+2023-04-22 22:51:48.943911
+Epoch 252/350
+------------------------------
+Learning Rate: 0.0019456781352751968
+------------------------------
+train Loss: 0.0479 Acc: 0.9830
+2023-04-22 23:29:35.840410
+validation Loss: 2.3118 Acc: 0.6726
+2023-04-22 23:31:19.905672
+Epoch 253/350
+------------------------------
+Learning Rate: 0.0019092135218797101
+------------------------------
+train Loss: 0.0452 Acc: 0.9844
+2023-04-23 00:09:07.116318
+validation Loss: 2.1935 Acc: 0.6732
+2023-04-23 00:10:51.232871
+Epoch 254/350
+------------------------------
+Learning Rate: 0.0018730130427293695
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:44.362830, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:11.455197, resuming normal operation.
+train Loss: 0.0452 Acc: 0.9844
+2023-04-23 00:48:38.391648
+validation Loss: 2.2504 Acc: 0.6635
+2023-04-23 00:50:22.593838
+Epoch 255/350
+------------------------------
+Learning Rate: 0.001837079791465976
+------------------------------
+train Loss: 0.0386 Acc: 0.9877
+2023-04-23 01:28:08.953180
+validation Loss: 2.2757 Acc: 0.6771
+2023-04-23 01:29:52.982606
+Epoch 256/350
+------------------------------
+Learning Rate: 0.0018014168388944046
+------------------------------
+train Loss: 0.0352 Acc: 0.9878
+2023-04-23 02:07:39.811986
+validation Loss: 2.4097 Acc: 0.6621
+2023-04-23 02:09:23.841049
+Epoch 257/350
+------------------------------
+Learning Rate: 0.0017660272327201948
+------------------------------
+train Loss: 0.0363 Acc: 0.9870
+2023-04-23 02:47:10.746081
+validation Loss: 2.2210 Acc: 0.6769
+2023-04-23 02:48:54.790864
+Epoch 258/350
+------------------------------
+Learning Rate: 0.001730913997289081
+------------------------------
+train Loss: 0.0372 Acc: 0.9871
+2023-04-23 03:26:41.745314
+validation Loss: 2.3062 Acc: 0.6811
+2023-04-23 03:28:25.753681
+Epoch 259/350
+------------------------------
+Learning Rate: 0.0016960801333285491
+------------------------------
+train Loss: 0.0342 Acc: 0.9886
+2023-04-23 04:06:12.818211
+validation Loss: 2.4186 Acc: 0.6742
+2023-04-23 04:07:56.909980
+Epoch 260/350
+------------------------------
+Learning Rate: 0.0016615286176913963
+------------------------------
+train Loss: 0.0345 Acc: 0.9888
+2023-04-23 04:45:44.327281
+validation Loss: 2.2396 Acc: 0.6844
+2023-04-23 04:47:28.450800
+Epoch 261/350
+------------------------------
+Learning Rate: 0.001627262403101324
+------------------------------
+train Loss: 0.0335 Acc: 0.9886
+2023-04-23 05:25:15.363878
+validation Loss: 2.3310 Acc: 0.6713
+2023-04-23 05:26:59.302791
+Epoch 262/350
+------------------------------
+Learning Rate: 0.001593284417900615
+------------------------------
+train Loss: 0.0318 Acc: 0.9894
+2023-04-23 06:04:46.300926
+validation Loss: 2.5701 Acc: 0.6599
+2023-04-23 06:06:30.410758
+Epoch 263/350
+------------------------------
+Learning Rate: 0.0015595975657998723
+------------------------------
+train Loss: 0.0267 Acc: 0.9911
+2023-04-23 06:44:17.666514
+validation Loss: 2.3412 Acc: 0.6808
+2023-04-23 06:46:01.811281
+Epoch 264/350
+------------------------------
+Learning Rate: 0.0015262047256298789
+------------------------------
+train Loss: 0.0307 Acc: 0.9895
+2023-04-23 07:23:48.369008
+validation Loss: 2.3599 Acc: 0.6786
+2023-04-23 07:25:32.438389
+Epoch 265/350
+------------------------------
+Learning Rate: 0.0014931087510955694
+------------------------------
+train Loss: 0.0295 Acc: 0.9902
+2023-04-23 08:03:19.067861
+validation Loss: 2.2795 Acc: 0.6793
+2023-04-23 08:05:03.096619
+Epoch 266/350
+------------------------------
+Learning Rate: 0.001460312470532164
+------------------------------
+train Loss: 0.0254 Acc: 0.9914
+2023-04-23 08:42:50.032641
+validation Loss: 2.3445 Acc: 0.6763
+2023-04-23 08:44:34.081643
+Epoch 267/350
+------------------------------
+Learning Rate: 0.0014278186866634607
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:11:19.049125, resuming normal operation.
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+train Loss: 0.0231 Acc: 0.9925
+2023-04-23 09:22:20.888270
+wandb: Network error resolved after 0:10:39.032434, resuming normal operation.
+validation Loss: 2.4631 Acc: 0.6758
+2023-04-23 09:24:04.893421
+Epoch 268/350
+------------------------------
+Learning Rate: 0.0013956301763623131
+------------------------------
+train Loss: 0.0275 Acc: 0.9905
+2023-04-23 10:01:51.227550
+validation Loss: 2.6271 Acc: 0.6506
+2023-04-23 10:03:35.354756
+Epoch 269/350
+------------------------------
+Learning Rate: 0.0013637496904133283
+------------------------------
+train Loss: 0.0215 Acc: 0.9926
+2023-04-23 10:41:21.930478
+validation Loss: 2.6450 Acc: 0.6622
+2023-04-23 10:43:05.946234
+Epoch 270/350
+------------------------------
+Learning Rate: 0.0013321799532777896
+------------------------------
+train Loss: 0.0239 Acc: 0.9920
+2023-04-23 11:20:52.533517
+validation Loss: 2.4082 Acc: 0.6782
+2023-04-23 11:22:36.555231
+Epoch 271/350
+------------------------------
+Learning Rate: 0.0013009236628608262
+------------------------------
+train Loss: 0.0222 Acc: 0.9926
+2023-04-23 12:00:23.008507
+validation Loss: 2.3830 Acc: 0.6825
+2023-04-23 12:02:07.135266
+Epoch 272/350
+------------------------------
+Learning Rate: 0.0012699834902808493
+------------------------------
+train Loss: 0.0239 Acc: 0.9922
+2023-04-23 12:39:53.776242
+validation Loss: 2.4808 Acc: 0.6778
+2023-04-23 12:41:37.975528
+Epoch 273/350
+------------------------------
+Learning Rate: 0.0012393620796412907
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:06:03.190476, resuming normal operation.
+train Loss: 0.0188 Acc: 0.9936
+2023-04-23 13:19:24.680647
+validation Loss: 2.5293 Acc: 0.6749
+2023-04-23 13:21:08.700798
+Epoch 274/350
+------------------------------
+Learning Rate: 0.0012090620478046377
+------------------------------
+train Loss: 0.0175 Acc: 0.9939
+2023-04-23 13:58:55.963486
+validation Loss: 2.7300 Acc: 0.6715
+2023-04-23 14:00:40.104233
+Epoch 275/350
+------------------------------
+Learning Rate: 0.0011790859841687945
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:46.997780, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:08.131754, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:02:20.235905, resuming normal operation.
+train Loss: 0.0193 Acc: 0.9938
+2023-04-23 14:38:27.175295
+validation Loss: 2.4509 Acc: 0.6801
+2023-04-23 14:40:11.148692
+Epoch 276/350
+------------------------------
+Learning Rate: 0.0011494364504458022
+------------------------------
+train Loss: 0.0160 Acc: 0.9948
+2023-04-23 15:17:58.240023
+validation Loss: 2.4586 Acc: 0.6820
+2023-04-23 15:19:42.199913
+Epoch 277/350
+------------------------------
+Learning Rate: 0.00112011598044292
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:06:09.178743, resuming normal operation.
+train Loss: 0.0159 Acc: 0.9945
+2023-04-23 15:57:29.092623
+validation Loss: 2.6040 Acc: 0.6878
+2023-04-23 15:59:13.210054
+Epoch 278/350
+------------------------------
+Learning Rate: 0.001091127079846085
+------------------------------
+train Loss: 0.0143 Acc: 0.9952
+2023-04-23 16:37:01.252674
+validation Loss: 2.7388 Acc: 0.6664
+2023-04-23 16:38:45.355791
+Epoch 279/350
+------------------------------
+Learning Rate: 0.0010624722260057812
+------------------------------
+train Loss: 0.0162 Acc: 0.9945
+2023-04-23 17:16:33.242993
+validation Loss: 2.6347 Acc: 0.6787
+2023-04-23 17:18:17.204163
+Epoch 280/350
+------------------------------
+Learning Rate: 0.0010341538677253281
+------------------------------
+train Loss: 0.0146 Acc: 0.9951
+2023-04-23 17:56:04.612917
+validation Loss: 2.5302 Acc: 0.6833
+2023-04-23 17:57:48.644632
+Epoch 281/350
+------------------------------
+Learning Rate: 0.0010061744250516086
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:02:24.855960, resuming normal operation.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:49.905440, resuming normal operation.
+train Loss: 0.0160 Acc: 0.9946
+2023-04-23 18:35:36.338315
+validation Loss: 2.3701 Acc: 0.6915
+2023-04-23 18:37:20.226497
+Epoch 282/350
+------------------------------
+Learning Rate: 0.0009785362890682603
+------------------------------
+train Loss: 0.0125 Acc: 0.9954
+2023-04-23 19:15:07.745665
+validation Loss: 2.6981 Acc: 0.6708
+2023-04-23 19:16:51.697036
+Epoch 283/350
+------------------------------
+Learning Rate: 0.0009512418216913333
+------------------------------
+train Loss: 0.0127 Acc: 0.9955
+2023-04-23 19:54:39.100512
+validation Loss: 2.7035 Acc: 0.6747
+2023-04-23 19:56:22.946766
+Epoch 284/350
+------------------------------
+Learning Rate: 0.0009242933554674398
+------------------------------
+wandb: Network error (ConnectionError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:03:42.094519, resuming normal operation.
+train Loss: 0.0137 Acc: 0.9953
+2023-04-23 20:34:10.499232
+validation Loss: 2.7454 Acc: 0.6779
+2023-04-23 20:35:54.523857
+Epoch 285/350
+------------------------------
+Learning Rate: 0.000897693193374427
+------------------------------
+train Loss: 0.0108 Acc: 0.9965
+2023-04-23 21:13:41.564670
+validation Loss: 2.7904 Acc: 0.6770
+2023-04-23 21:15:25.449359
+Epoch 286/350
+------------------------------
+Learning Rate: 0.0008714436086245614
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:44.379501, resuming normal operation.
+train Loss: 0.0115 Acc: 0.9960
+2023-04-23 21:53:12.627184
+validation Loss: 2.8280 Acc: 0.6808
+2023-04-23 21:54:56.525110
+Epoch 287/350
+------------------------------
+Learning Rate: 0.0008455468444702652
+------------------------------
+train Loss: 0.0105 Acc: 0.9965
+2023-04-23 22:32:43.886392
+validation Loss: 2.7546 Acc: 0.6783
+2023-04-23 22:34:27.918774
+Epoch 288/350
+------------------------------
+Learning Rate: 0.0008200051140124093
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:56.937178, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:01.539918, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:01:25.975405, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+train Loss: 0.0103 Acc: 0.9969
+2023-04-23 23:12:15.236405
+validation Loss: 2.7436 Acc: 0.6836
+2023-04-23 23:13:59.317226
+Epoch 289/350
+------------------------------
+Learning Rate: 0.0007948206000111891
+------------------------------
+wandb: Network error resolved after 0:05:57.518660, resuming normal operation.
+train Loss: 0.0100 Acc: 0.9967
+2023-04-23 23:51:46.280993
+validation Loss: 2.8269 Acc: 0.6775
+2023-04-23 23:53:30.258874
+Epoch 290/350
+------------------------------
+Learning Rate: 0.0007699954546995869
+------------------------------
+train Loss: 0.0072 Acc: 0.9975
+2023-04-24 00:31:17.907313
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:46.357442, resuming normal operation.
+validation Loss: 2.8431 Acc: 0.6802
+2023-04-24 00:33:01.905749
+Epoch 291/350
+------------------------------
+Learning Rate: 0.0007455317995994415
+------------------------------
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:03:44.670532, resuming normal operation.
+train Loss: 0.0087 Acc: 0.9970
+2023-04-24 01:10:49.167173
+validation Loss: 2.8465 Acc: 0.6762
+2023-04-24 01:12:33.139891
+Epoch 292/350
+------------------------------
+Learning Rate: 0.0007214317253401509
+------------------------------
+train Loss: 0.0083 Acc: 0.9970
+2023-04-24 01:50:20.114517
+validation Loss: 2.7775 Acc: 0.6784
+2023-04-24 01:52:04.124455
+Epoch 293/350
+------------------------------
+Learning Rate: 0.0006976972914800089
+------------------------------
+train Loss: 0.0063 Acc: 0.9979
+2023-04-24 02:29:51.556227
+validation Loss: 2.8769 Acc: 0.6796
+2023-04-24 02:31:35.549816
+Epoch 294/350
+------------------------------
+Learning Rate: 0.0006743305263301969
+------------------------------
+train Loss: 0.0067 Acc: 0.9977
+2023-04-24 03:09:23.161565
+validation Loss: 2.7853 Acc: 0.6850
+2023-04-24 03:11:07.187227
+Epoch 295/350
+------------------------------
+Learning Rate: 0.0006513334267814447
+------------------------------
+train Loss: 0.0064 Acc: 0.9980
+2023-04-24 03:48:54.981926
+validation Loss: 2.9865 Acc: 0.6791
+2023-04-24 03:50:39.053353
+Epoch 296/350
+------------------------------
+Learning Rate: 0.0006287079581333866
+------------------------------
+train Loss: 0.0071 Acc: 0.9978
+2023-04-24 04:28:26.300811
+validation Loss: 2.7604 Acc: 0.6905
+2023-04-24 04:30:10.197112
+Epoch 297/350
+------------------------------
+Learning Rate: 0.000606456053926604
+------------------------------
+train Loss: 0.0063 Acc: 0.9977
+2023-04-24 05:07:58.195724
+validation Loss: 2.8532 Acc: 0.6843
+2023-04-24 05:09:42.237208
+Epoch 298/350
+------------------------------
+Learning Rate: 0.0005845796157773891
+------------------------------
+train Loss: 0.0058 Acc: 0.9981
+2023-04-24 05:47:30.115119
+validation Loss: 2.8947 Acc: 0.6845
+2023-04-24 05:49:14.078827
+Epoch 299/350
+------------------------------
+Learning Rate: 0.0005630805132152339
+------------------------------
+train Loss: 0.0054 Acc: 0.9981
+2023-04-24 06:27:01.149732
+validation Loss: 2.9361 Acc: 0.6799
+2023-04-24 06:28:45.056388
+Epoch 300/350
+------------------------------
+Learning Rate: 0.000541960583523064
+------------------------------
+train Loss: 0.0055 Acc: 0.9982
+2023-04-24 07:06:32.126002
+validation Loss: 2.9367 Acc: 0.6810
+2023-04-24 07:08:16.077130
+Epoch 301/350
+------------------------------
+Learning Rate: 0.0005212216315802304
+------------------------------
+train Loss: 0.0047 Acc: 0.9982
+2023-04-24 07:46:03.694570
+validation Loss: 2.9163 Acc: 0.6840
+2023-04-24 07:47:47.672154
+Epoch 302/350
+------------------------------
+Learning Rate: 0.0005008654297082605
+------------------------------
+train Loss: 0.0047 Acc: 0.9985
+2023-04-24 08:25:34.591590
+validation Loss: 3.0051 Acc: 0.6795
+2023-04-24 08:27:18.549608
+Epoch 303/350
+------------------------------
+Learning Rate: 0.00048089371751940335
+------------------------------
+train Loss: 0.0045 Acc: 0.9983
+2023-04-24 09:05:06.106576
+validation Loss: 2.9465 Acc: 0.6843
+2023-04-24 09:06:50.055201
+Epoch 304/350
+------------------------------
+Learning Rate: 0.00046130820176796373
+------------------------------
+train Loss: 0.0034 Acc: 0.9989
+2023-04-24 09:44:37.445145
+validation Loss: 3.0948 Acc: 0.6844
+2023-04-24 09:46:21.453032
+Epoch 305/350
+------------------------------
+Learning Rate: 0.0004421105562044436
+------------------------------
+train Loss: 0.0032 Acc: 0.9991
+2023-04-24 10:24:08.863302
+validation Loss: 3.0709 Acc: 0.6852
+2023-04-24 10:25:52.831290
+Epoch 306/350
+------------------------------
+Learning Rate: 0.0004233024214325054
+------------------------------
+train Loss: 0.0043 Acc: 0.9986
+2023-04-24 11:03:39.979787
+validation Loss: 3.0938 Acc: 0.6806
+2023-04-24 11:05:24.052282
+Epoch 307/350
+------------------------------
+Learning Rate: 0.00040488540476877114
+------------------------------
+train Loss: 0.0048 Acc: 0.9984
+2023-04-24 11:43:11.161510
+validation Loss: 3.0328 Acc: 0.6853
+2023-04-24 11:44:55.090793
+Epoch 308/350
+------------------------------
+Learning Rate: 0.00038686108010546117
+------------------------------
+train Loss: 0.0030 Acc: 0.9989
+2023-04-24 12:22:42.847611
+validation Loss: 2.9665 Acc: 0.6931
+2023-04-24 12:24:26.755395
+Epoch 309/350
+------------------------------
+Learning Rate: 0.0003692309877758954
+------------------------------
+train Loss: 0.0032 Acc: 0.9989
+2023-04-24 13:02:14.498594
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+validation Loss: 3.1095 Acc: 0.6792
+2023-04-24 13:03:58.444640
+Epoch 310/350
+------------------------------
+Learning Rate: 0.0003519966344228498
+------------------------------
+wandb: Network error resolved after 0:01:33.733286, resuming normal operation.
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:06:20.354357, resuming normal operation.
+train Loss: 0.0028 Acc: 0.9992
+2023-04-24 13:41:45.900769
+validation Loss: 3.0462 Acc: 0.6881
+2023-04-24 13:43:29.863297
+Epoch 311/350
+------------------------------
+Learning Rate: 0.0003351594928698115
+------------------------------
+train Loss: 0.0029 Acc: 0.9991
+2023-04-24 14:21:17.294139
+validation Loss: 3.1209 Acc: 0.6856
+2023-04-24 14:23:01.217371
+Epoch 312/350
+------------------------------
+Learning Rate: 0.000318721001995107
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:46.512054, resuming normal operation.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:03:54.095592, resuming normal operation.
+train Loss: 0.0028 Acc: 0.9991
+2023-04-24 15:00:48.645986
+validation Loss: 3.2844 Acc: 0.6719
+2023-04-24 15:02:32.606773
+Epoch 313/350
+------------------------------
+Learning Rate: 0.0003026825666089389
+------------------------------
+train Loss: 0.0039 Acc: 0.9988
+2023-04-24 15:40:19.947171
+validation Loss: 3.1042 Acc: 0.6827
+2023-04-24 15:42:03.910615
+Epoch 314/350
+------------------------------
+Learning Rate: 0.0002870455573333319
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:44.828026, resuming normal operation.
+wandb: Network error (ReadTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:56.575181, resuming normal operation.
+train Loss: 0.0023 Acc: 0.9992
+2023-04-24 16:19:51.030728
+validation Loss: 3.0446 Acc: 0.6893
+2023-04-24 16:21:34.896003
+Epoch 315/350
+------------------------------
+Learning Rate: 0.0002718113104850045
+------------------------------
+wandb: Network error (ConnectTimeout), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:11:01.662225, resuming normal operation.
+train Loss: 0.0023 Acc: 0.9992
+2023-04-24 16:59:22.155545
+validation Loss: 3.1790 Acc: 0.6800
+2023-04-24 17:01:06.085731
+Epoch 316/350
+------------------------------
+Learning Rate: 0.00025698112796116666
+------------------------------
+train Loss: 0.0025 Acc: 0.9993
+2023-04-24 17:38:52.887522
+validation Loss: 3.1860 Acc: 0.6813
+2023-04-24 17:40:36.863379
+Epoch 317/350
+------------------------------
+Learning Rate: 0.00024255627712826134
+------------------------------
+train Loss: 0.0029 Acc: 0.9990
+2023-04-24 18:18:23.946050
+validation Loss: 3.1669 Acc: 0.6791
+2023-04-24 18:20:07.891646
+Epoch 318/350
+------------------------------
+Learning Rate: 0.00022853799071365866
+------------------------------
+train Loss: 0.0028 Acc: 0.9992
+2023-04-24 18:57:54.515510
+validation Loss: 3.1965 Acc: 0.6827
+2023-04-24 18:59:38.411810
+Epoch 319/350
+------------------------------
+Learning Rate: 0.00021492746670030762
+------------------------------
+train Loss: 0.0022 Acc: 0.9994
+2023-04-24 19:37:25.356764
+validation Loss: 3.1642 Acc: 0.6816
+2023-04-24 19:39:09.394980
+Epoch 320/350
+------------------------------
+Learning Rate: 0.00020172586822435944
+------------------------------
+train Loss: 0.0024 Acc: 0.9993
+2023-04-24 20:16:56.715937
+validation Loss: 3.2086 Acc: 0.6789
+2023-04-24 20:18:40.761915
+Epoch 321/350
+------------------------------
+Learning Rate: 0.0001889343234757651
+------------------------------
+train Loss: 0.0022 Acc: 0.9993
+2023-04-24 20:56:27.851119
+validation Loss: 3.1946 Acc: 0.6824
+2023-04-24 20:58:11.812770
+Epoch 322/350
+------------------------------
+Learning Rate: 0.00017655392560186444
+------------------------------
+train Loss: 0.0020 Acc: 0.9993
+2023-04-24 21:35:59.031883
+validation Loss: 3.2176 Acc: 0.6844
+2023-04-24 21:37:42.923454
+Epoch 323/350
+------------------------------
+Learning Rate: 0.00016458573261396716
+------------------------------
+train Loss: 0.0018 Acc: 0.9995
+2023-04-24 22:15:29.569139
+validation Loss: 3.2039 Acc: 0.6850
+2023-04-24 22:17:13.437385
+Epoch 324/350
+------------------------------
+Learning Rate: 0.00015303076729693445
+------------------------------
+train Loss: 0.0019 Acc: 0.9993
+2023-04-24 22:55:00.959083
+validation Loss: 3.1853 Acc: 0.6831
+2023-04-24 22:56:44.900568
+Epoch 325/350
+------------------------------
+Learning Rate: 0.00014189001712177574
+------------------------------
+train Loss: 0.0018 Acc: 0.9995
+2023-04-24 23:34:31.381659
+validation Loss: 3.2003 Acc: 0.6868
+2023-04-24 23:36:15.376116
+Epoch 326/350
+------------------------------
+Learning Rate: 0.00013116443416125834
+------------------------------
+train Loss: 0.0019 Acc: 0.9994
+2023-04-25 00:14:02.427288
+validation Loss: 3.1970 Acc: 0.6841
+2023-04-25 00:15:46.385329
+Epoch 327/350
+------------------------------
+Learning Rate: 0.00012085493500854694
+------------------------------
+train Loss: 0.0014 Acc: 0.9996
+2023-04-25 00:53:33.929105
+validation Loss: 3.1889 Acc: 0.6858
+2023-04-25 00:55:17.899337
+Epoch 328/350
+------------------------------
+Learning Rate: 0.00011096240069887187
+------------------------------
+train Loss: 0.0018 Acc: 0.9995
+2023-04-25 01:33:05.119678
+validation Loss: 3.2206 Acc: 0.6842
+2023-04-25 01:34:49.080588
+Epoch 329/350
+------------------------------
+Learning Rate: 0.00010148767663423764
+------------------------------
+train Loss: 0.0014 Acc: 0.9995
+2023-04-25 02:12:36.419982
+validation Loss: 3.1982 Acc: 0.6837
+2023-04-25 02:14:20.387046
+Epoch 330/350
+------------------------------
+Learning Rate: 9.243157251117463e-05
+------------------------------
+train Loss: 0.0018 Acc: 0.9994
+2023-04-25 02:52:08.219680
+validation Loss: 3.1754 Acc: 0.6867
+2023-04-25 02:53:52.136372
+Epoch 331/350
+------------------------------
+Learning Rate: 8.379486225154498e-05
+------------------------------
+train Loss: 0.0012 Acc: 0.9996
+2023-04-25 03:31:39.670642
+validation Loss: 3.1694 Acc: 0.6865
+2023-04-25 03:33:23.701117
+Epoch 332/350
+------------------------------
+Learning Rate: 7.557828393640442e-05
+------------------------------
+train Loss: 0.0020 Acc: 0.9994
+2023-04-25 04:11:10.369611
+validation Loss: 3.1955 Acc: 0.6842
+2023-04-25 04:12:54.375381
+Epoch 333/350
+------------------------------
+Learning Rate: 6.778253974292492e-05
+------------------------------
+train Loss: 0.0015 Acc: 0.9996
+2023-04-25 04:50:41.966373
+validation Loss: 3.2209 Acc: 0.6833
+2023-04-25 04:52:26.003668
+Epoch 334/350
+------------------------------
+Learning Rate: 6.0408295884389894e-05
+------------------------------
+train Loss: 0.0013 Acc: 0.9994
+2023-04-25 05:30:13.279983
+validation Loss: 3.2107 Acc: 0.6849
+2023-04-25 05:31:57.209252
+Epoch 335/350
+------------------------------
+Learning Rate: 5.345618255326035e-05
+------------------------------
+train Loss: 0.0014 Acc: 0.9996
+2023-04-25 06:09:44.650402
+validation Loss: 3.2434 Acc: 0.6836
+2023-04-25 06:11:28.563594
+Epoch 336/350
+------------------------------
+Learning Rate: 4.6926793867317354e-05
+------------------------------
+train Loss: 0.0014 Acc: 0.9996
+2023-04-25 06:49:16.127714
+validation Loss: 3.2376 Acc: 0.6840
+2023-04-25 06:51:00.189996
+Epoch 337/350
+------------------------------
+Learning Rate: 4.082068781889326e-05
+------------------------------
+train Loss: 0.0017 Acc: 0.9994
+2023-04-25 07:28:47.308328
+validation Loss: 3.2198 Acc: 0.6847
+2023-04-25 07:30:31.221112
+Epoch 338/350
+------------------------------
+Learning Rate: 3.513838622718202e-05
+------------------------------
+train Loss: 0.0014 Acc: 0.9996
+2023-04-25 08:08:18.693625
+validation Loss: 3.2351 Acc: 0.6841
+2023-04-25 08:10:02.706782
+Epoch 339/350
+------------------------------
+Learning Rate: 2.988037469364935e-05
+------------------------------
+train Loss: 0.0017 Acc: 0.9994
+2023-04-25 08:47:50.037994
+validation Loss: 3.2251 Acc: 0.6842
+2023-04-25 08:49:33.959589
+Epoch 340/350
+------------------------------
+Learning Rate: 2.5047102560530333e-05
+------------------------------
+train Loss: 0.0012 Acc: 0.9996
+2023-04-25 09:27:21.029028
+validation Loss: 3.2262 Acc: 0.6846
+2023-04-25 09:29:05.000992
+Epoch 341/350
+------------------------------
+Learning Rate: 2.0638982872432376e-05
+------------------------------
+train Loss: 0.0013 Acc: 0.9997
+2023-04-25 10:06:51.541570
+validation Loss: 3.2171 Acc: 0.6849
+2023-04-25 10:08:35.531857
+Epoch 342/350
+------------------------------
+Learning Rate: 1.665639234103622e-05
+------------------------------
+train Loss: 0.0015 Acc: 0.9995
+2023-04-25 10:46:23.424094
+validation Loss: 3.2188 Acc: 0.6844
+2023-04-25 10:48:07.255616
+Epoch 343/350
+------------------------------
+Learning Rate: 1.3099671312900574e-05
+------------------------------
+train Loss: 0.0014 Acc: 0.9995
+2023-04-25 11:25:54.759981
+validation Loss: 3.2245 Acc: 0.6841
+2023-04-25 11:27:38.651100
+Epoch 344/350
+------------------------------
+Learning Rate: 9.969123740379282e-06
+------------------------------
+train Loss: 0.0019 Acc: 0.9995
+2023-04-25 12:05:25.751842
+validation Loss: 3.2230 Acc: 0.6842
+2023-04-25 12:07:09.629158
+Epoch 345/350
+------------------------------
+Learning Rate: 7.265017155643761e-06
+------------------------------
+train Loss: 0.0018 Acc: 0.9995
+2023-04-25 12:44:57.235654
+validation Loss: 3.2288 Acc: 0.6841
+2023-04-25 12:46:41.119720
+Epoch 346/350
+------------------------------
+Learning Rate: 4.987582647822398e-06
+------------------------------
+train Loss: 0.0016 Acc: 0.9994
+2023-04-25 13:24:28.461204
+validation Loss: 3.2252 Acc: 0.6841
+2023-04-25 13:26:12.316536
+Epoch 347/350
+------------------------------
+Learning Rate: 3.137014843250241e-06
+------------------------------
+train Loss: 0.0019 Acc: 0.9993
+2023-04-25 14:03:59.679381
+validation Loss: 3.2254 Acc: 0.6844
+2023-04-25 14:05:43.675087
+Epoch 348/350
+------------------------------
+Learning Rate: 1.7134718888367483e-06
+------------------------------
+train Loss: 0.0015 Acc: 0.9995
+2023-04-25 14:43:31.212322
+validation Loss: 3.2251 Acc: 0.6845
+2023-04-25 14:45:15.161352
+Epoch 349/350
+------------------------------
+Learning Rate: 7.170754385515954e-07
+------------------------------
+train Loss: 0.0017 Acc: 0.9994
+2023-04-25 15:23:01.895506
+validation Loss: 3.2250 Acc: 0.6844
+2023-04-25 15:24:45.800145
+Epoch 350/350
+------------------------------
+Learning Rate: 1.4791064302688285e-07
+------------------------------
+train Loss: 0.0017 Acc: 0.9994
+2023-04-25 16:02:32.639661
+validation Loss: 3.2250 Acc: 0.6844
+2023-04-25 16:04:16.635482
+Best Val Acc: 0.6931
+Accuracy of the network on the 10000 test images: 69.31
+wandb: Waiting for W&B process to finish, PID 16978
+wandb: Program ended successfully.
+wandb: - 0.00MB of 0.00MB uploaded (0.00MB deduped)
+wandb: \ 28.62MB of 28.62MB uploaded (0.00MB deduped)
+wandb: | 28.62MB of 28.62MB uploaded (0.00MB deduped)
+wandb:                                                                                
+wandb: Find user logs for this run at: /home/weixiaowen1/ykf/ModifiedGSA/wandb/run-20230415_215046-1kdj8vf0/logs/debug.log
+wandb: Find internal logs for this run at: /home/weixiaowen1/ykf/ModifiedGSA/wandb/run-20230415_215046-1kdj8vf0/logs/debug-internal.log
+wandb: Run summary:
+wandb:             no_params 3001808
+wandb:     best_val_accuracy 0.6931
+wandb:         best_val_loss 2.96655
+wandb:    best_test_accuracy 0.6931
+wandb:                    lr 0.0
+wandb:        accuracy_train 0.99944
+wandb:            loss_train 0.00172
+wandb:   accuracy_validation 0.6844
+wandb:       loss_validation 3.225
+wandb:         accuracy_test 0.6931
+wandb:              _runtime 843312
+wandb:            _timestamp 1682409959
+wandb:                 _step 350
+wandb: Run history:
+wandb:                    lr ▃███████▇▇▇▇▇▆▆▆▆▅▅▅▅▄▄▄▄▃▃▃▂▂▂▂▂▂▁▁▁▁▁▁
+wandb:        accuracy_train ▁▃▃▄▄▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇▇▇▇▇████████████████
+wandb:            loss_train █▇▆▅▅▅▄▄▄▄▃▃▃▃▃▃▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:   accuracy_validation ▁▃▄▅▅▆▆▆▆▆▇▇▇▇▇█▇▇▇▇█▇▇▇▇█████▇█████████
+wandb:       loss_validation ▃▂▂▂▁▁▁▂▂▂▁▁▁▁▁▁▂▂▂▂▂▃▃▂▃▄▃▄▄▅▆▅▆▆▇█████
+wandb:         accuracy_test ▁▂▃▃▃▄▄▄▅▅▆▆▆▆▇▇▇▇▇▇███████████
+wandb:              _runtime ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:            _timestamp ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:                 _step ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb: 
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 3 other file(s)
+wandb: 
+wandb: Synced gentle-spaceship-707: https://wandb.ai/equivatt_team/equivariant-attention/runs/1kdj8vf0
+
