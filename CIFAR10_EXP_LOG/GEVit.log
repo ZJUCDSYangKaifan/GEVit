@@ -3217,6 +3217,4 @@ validation Loss: 3.1576 Acc: 0.6987
 2023-04-24 14:24:24.915381
 Best Val Acc: 0.7048
 Accuracy of the network on the 10000 test images: 70.48
-wandb: Waiting for W&B process to finish, PID 520351
-wandb: Program ended successfully.
-wandb: - 0.00MB of 0.00MB uploaded (0.00MB deduped)
+

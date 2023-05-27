@@ -3251,40 +3251,5 @@ validation Loss: 3.2250 Acc: 0.6844
 2023-04-25 16:04:16.635482
 Best Val Acc: 0.6931
 Accuracy of the network on the 10000 test images: 69.31
-wandb: Waiting for W&B process to finish, PID 16978
-wandb: Program ended successfully.
-wandb: - 0.00MB of 0.00MB uploaded (0.00MB deduped)
-wandb: \ 28.62MB of 28.62MB uploaded (0.00MB deduped)
-wandb: | 28.62MB of 28.62MB uploaded (0.00MB deduped)
-wandb:                                                                                
-wandb: Find user logs for this run at: /home/weixiaowen1/ykf/ModifiedGSA/wandb/run-20230415_215046-1kdj8vf0/logs/debug.log
-wandb: Find internal logs for this run at: /home/weixiaowen1/ykf/ModifiedGSA/wandb/run-20230415_215046-1kdj8vf0/logs/debug-internal.log
-wandb: Run summary:
-wandb:             no_params 3001808
-wandb:     best_val_accuracy 0.6931
-wandb:         best_val_loss 2.96655
-wandb:    best_test_accuracy 0.6931
-wandb:                    lr 0.0
-wandb:        accuracy_train 0.99944
-wandb:            loss_train 0.00172
-wandb:   accuracy_validation 0.6844
-wandb:       loss_validation 3.225
-wandb:         accuracy_test 0.6931
-wandb:              _runtime 843312
-wandb:            _timestamp 1682409959
-wandb:                 _step 350
-wandb: Run history:
-wandb:                    lr ▃███████▇▇▇▇▇▆▆▆▆▅▅▅▅▄▄▄▄▃▃▃▂▂▂▂▂▂▁▁▁▁▁▁
-wandb:        accuracy_train ▁▃▃▄▄▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇▇▇▇▇████████████████
-wandb:            loss_train █▇▆▅▅▅▄▄▄▄▃▃▃▃▃▃▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
-wandb:   accuracy_validation ▁▃▄▅▅▆▆▆▆▆▇▇▇▇▇█▇▇▇▇█▇▇▇▇█████▇█████████
-wandb:       loss_validation ▃▂▂▂▁▁▁▂▂▂▁▁▁▁▁▁▂▂▂▂▂▃▃▂▃▄▃▄▄▅▆▅▆▆▇█████
-wandb:         accuracy_test ▁▂▃▃▃▄▄▄▅▅▆▆▆▆▇▇▇▇▇▇███████████
-wandb:              _runtime ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
-wandb:            _timestamp ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
-wandb:                 _step ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
-wandb: 
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 3 other file(s)
-wandb: 
-wandb: Synced gentle-spaceship-707: https://wandb.ai/equivatt_team/equivariant-attention/runs/1kdj8vf0
+
 
