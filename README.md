@@ -4,7 +4,7 @@ This repository contains the source code accompanying the paper:
 
  [Group Equivariant Vision Transformer](https://openreview.net/forum?id=uVG_7x41bN),  UAI 2023.
  
- Code Author: Kaifan Yang & Ke Liu
+ Code Author: [Kaifan Yang](https://github.com/CSK0x26B/) & [Ke Liu](https://github.com/zjuKeLiu)
 
 #### Abstract
 *Vision Transformer (ViT) has achieved remarkable performance in computer vision. However, positional encoding in ViT makes it substantially difficult to realize the equivariance, compared to models based on convolutional operations which are translation-equivariant. Initial attempts have been made on designing equivariant ViT but proved not effective in some cases in this paper. To address this issue, we propose a Group Equivariant Vision Transformer (GE-ViT) via a novel, effective positional encoding operation. We prove that GE-ViT meets all the theoretical requirements of an equivariant neural network. Comprehensive experiments are conducted on standard benchmark datasets. The empirical results demonstrate that GE-ViT has made significant improvement over non-equivariant self-attention networks*
@@ -35,7 +35,7 @@ The experimental results of rot-MNIST and PatchCamelyon are similar to those pre
 
 ### Contributions of each author to the paper
 
-Kaifan Yang & Ke Liu proposed the innovative ideas, designed the model architecture and completed the initial draft of the paper. Fengxiang He made detailed revisions to the paper and provided many constructive comments.
+[Kaifan Yang](https://github.com/CSK0x26B) & [Ke Liu](https://github.com/zjuKeLiu) proposed the innovative ideas, designed the model architecture and completed the initial draft of the paper. Fengxiang He made detailed revisions to the paper and provided many constructive comments.
 
 ### Acknowledgements
 *We gratefully acknowledge the authors of GSA-Nets paper David W. Romero and Jean-Baptiste Cordonnier.  They patiently answered and elaborated on the experimental details of the paper [GSA-Nets](https://openreview.net/forum?id=JkfYjnOEo6M).*
