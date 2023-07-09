@@ -35,7 +35,6 @@ The experimental results of rot-MNIST and PatchCamelyon are similar to those pre
 
 ### Contributions of each author to the paper
 
-[Kaifan Yang](https://github.com/ZJUCDSYangKaifan) & [Ke Liu](https://github.com/zjuKeLiu) proposed the innovative ideas, designed the model architecture and completed the initial draft of the paper. Fengxiang He made detailed revisions to the paper and provided many constructive comments.
-
+[Kaifan Yang](https://github.com/ZJUCDSYangKaifan) & [Ke Liu](https://github.com/zjuKeLiu) led the project and made significant contributions, including proposing the ideas, designing the model architecture, and conducting the experiments.
 ### Acknowledgements
 *We gratefully acknowledge the authors of GSA-Nets paper David W. Romero and Jean-Baptiste Cordonnier.  They patiently answered and elaborated on the experimental details of the paper [GSA-Nets](https://openreview.net/forum?id=JkfYjnOEo6M).*
